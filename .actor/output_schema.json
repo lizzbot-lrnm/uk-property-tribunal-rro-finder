@@ -1,0 +1,14 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "UK Property Tribunal RRO Precedent & Schedule Output",
+  "description": "Structured UK Property Tribunal Rent Repayment Order (RRO) calculation, Markdown/CSV Scott Schedule, and matched GOV.UK OGL v3.0 precedent rulings.",
+  "type": "object",
+  "properties": {
+    "results": {
+      "type": "string",
+      "title": "RRO Precedent & Schedule Results",
+      "description": "Dataset items containing the RRO award calculation, Markdown/CSV schedule, and matched GOV.UK tribunal decisions.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items"
+    }
+  }
+}

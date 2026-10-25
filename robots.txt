@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+Allow: /rro
+Allow: /rro/
+Allow: /api/rro-search
+Allow: /llms.txt
+Allow: /.well-known/agent.json
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://parish.technoplusit.co.uk/sitemap.xml

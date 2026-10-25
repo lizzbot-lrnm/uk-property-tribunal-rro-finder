@@ -1,0 +1,130 @@
+{
+  "actorSpecification": 1,
+  "title": "UK Property Tribunal RRO Precedent & Quantum Schedule Dataset",
+  "description": "Deterministic UK First-tier Tribunal (Property Chamber) Rent Repayment Order (RRO) precedent matches and Section 44 mitigation quantum schedules.",
+  "fields": {
+    "type": "object",
+    "properties": {
+      "status": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "title": "Status",
+        "description": "Execution status (ok)."
+      },
+      "isolation_mode": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "title": "Isolation Mode",
+        "description": "Read-only OGL v3.0 isolation attestation."
+      },
+      "corpus_size": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "title": "Indexed GOV.UK Decisions",
+        "description": "Total real GOV.UK Residential Property Tribunal RRO PDF decisions in the bundled SQLite FTS5 index."
+      },
+      "calculation": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "title": "RRO Quantum & Mitigation Calculation",
+        "description": "Calculated gross rent, UC/utility deductions, net eligible rent, and predicted tribunal award range (\u00a3 and %)."
+      },
+      "comparable_precedents": {
+        "type": [
+          "array",
+          "null"
+        ],
+        "title": "Top 5 Comparable Precedents",
+        "description": "Closest matching real GOV.UK RRO tribunal rulings with verbatim judicial summaries and PDF links."
+      },
+      "search_stats": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "title": "Search Statistics",
+        "description": "Aggregate matched count, median award %, mean award %, total claimed \u00a3, and total awarded \u00a3."
+      },
+      "matched_precedents": {
+        "type": [
+          "array",
+          "null"
+        ],
+        "title": "Matched GOV.UK RRO Rulings",
+        "description": "Full list of matched GOV.UK First-tier Tribunal RRO decisions."
+      },
+      "schedule_markdown": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "title": "Scott Schedule / Skeleton Argument (Markdown)",
+        "description": "Ready-to-use Markdown defence/claim schedule table citing official GOV.UK precedents."
+      }
+    },
+    "additionalProperties": true
+  },
+  "views": {
+    "overview": {
+      "title": "RRO Quantum & Precedents Overview",
+      "description": "Summary of RRO award calculation, mitigation savings, and matched GOV.UK tribunal rulings.",
+      "transformation": {
+        "fields": [
+          "status",
+          "isolation_mode",
+          "corpus_size",
+          "calculation",
+          "comparable_precedents",
+          "search_stats",
+          "matched_precedents",
+          "schedule_markdown"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "status": {
+            "label": "Status",
+            "format": "text"
+          },
+          "isolation_mode": {
+            "label": "Isolation Mode",
+            "format": "text"
+          },
+          "corpus_size": {
+            "label": "Corpus Size",
+            "format": "number"
+          },
+          "calculation": {
+            "label": "RRO Calculation",
+            "format": "object"
+          },
+          "comparable_precedents": {
+            "label": "Top 5 Comparable Precedents",
+            "format": "array"
+          },
+          "search_stats": {
+            "label": "Search Stats",
+            "format": "object"
+          },
+          "matched_precedents": {
+            "label": "Matched Rulings",
+            "format": "array"
+          },
+          "schedule_markdown": {
+            "label": "Markdown Schedule",
+            "format": "text"
+          }
+        }
+      }
+    }
+  }
+}

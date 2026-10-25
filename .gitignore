@@ -1,3 +1,6 @@
 data/rro_usage_counters.json
 __pycache__/
 .pytest_cache/
+.apify_*
+*.token
+storage/

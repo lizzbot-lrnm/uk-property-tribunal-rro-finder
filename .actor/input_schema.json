@@ -1,0 +1,118 @@
+{
+  "title": "UK Property Tribunal RRO Precedent Finder & Award Calculator Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "action": {
+      "title": "Operation Mode",
+      "type": "string",
+      "description": "Choose whether to run both the RRO Award & Mitigation Calculator + Precedent Search, or an individual operation.",
+      "default": "calculate_and_search",
+      "enum": [
+        "calculate_and_search",
+        "search_precedents",
+        "calculate_rro_schedule",
+        "audit_private_claim"
+      ]
+    },
+    "query": {
+      "title": "Keyword / Case Reference / Borough Query",
+      "type": "string",
+      "description": "Search by case reference (e.g. LON/00AJ/HMG/2025/0666), London borough, city, street, or judicial reasoning.",
+      "prefill": "Ealing",
+      "editor": "textfield",
+      "default": "Ealing"
+    },
+    "region": {
+      "title": "UK Tribunal Region",
+      "type": "string",
+      "description": "Filter by First-tier Tribunal Property Chamber region (London, Southern, Midlands, Northern, Eastern, or all).",
+      "default": "London",
+      "enum": [
+        "all",
+        "London",
+        "Southern",
+        "Midlands",
+        "Northern",
+        "Eastern"
+      ]
+    },
+    "offence_type": {
+      "title": "Housing Act 2004 / 2016 Offence Category",
+      "type": "string",
+      "description": "Filter by statutory RRO offence category.",
+      "default": "Unlicensed HMO (s.72)",
+      "enum": [
+        "all",
+        "Unlicensed HMO (s.72)",
+        "Selective Licensing (s.95)",
+        "Unlawful Eviction / Harassment",
+        "Improvement Notice / Civil Penalty"
+      ]
+    },
+    "party_role": {
+      "title": "Schedule Perspective (Landlord Defence vs Tenant Claim)",
+      "type": "string",
+      "description": "Select whether the generated Scott Schedule / Skeleton Argument is framed for Landlord s.44 Mitigation Defence or Tenant RRO Claim.",
+      "default": "landlord_defence",
+      "enum": [
+        "landlord_defence",
+        "tenant_claim"
+      ]
+    },
+    "monthly_rent_gbp": {
+      "title": "Monthly Rent (\u00a3 GBP)",
+      "type": "number",
+      "description": "Gross monthly rent paid in the relevant period (\u00a3 GBP).",
+      "default": 1800,
+      "minimum": 100,
+      "maximum": 25000
+    },
+    "months_unlicensed": {
+      "title": "Months Unlicensed / Claimed (1\u201324 Months under Renters' Rights Act 2026)",
+      "type": "integer",
+      "description": "Number of months of rent claimed (1 to 24 months under the Renters' Rights Act 2026 cap).",
+      "default": 12,
+      "minimum": 1,
+      "maximum": 24
+    },
+    "universal_credit_housing_gbp": {
+      "title": "Monthly Universal Credit / Housing Benefit Element (\u00a3 GBP)",
+      "type": "number",
+      "description": "Monthly Universal Credit housing element deducted from tenant-recoverable rent under s.44(3).",
+      "default": 0,
+      "minimum": 0,
+      "maximum": 25000
+    },
+    "utilities_included_monthly_gbp": {
+      "title": "Monthly Utilities / Council Tax Included in Rent (\u00a3 GBP)",
+      "type": "number",
+      "description": "Monthly gas, electricity, water, broadband, or council tax paid by landlord and deductible under Acheampong / Vadamalayan.",
+      "default": 200,
+      "minimum": 0,
+      "maximum": 10000
+    },
+    "mitigation_factors": {
+      "title": "Section 44 Conduct & Mitigation Factors (Comma-Separated)",
+      "type": "string",
+      "description": "Comma-separated s.44 mitigation/conduct tags: utilities_deducted, good_condition, first_offence, letting_agent_reliance, financial_hardship, delayed_council_application, tenant_conduct, professional_landlord_aggravation, director_liability.",
+      "default": "utilities_deducted,first_offence,good_condition",
+      "editor": "textfield"
+    },
+    "claim_text": {
+      "title": "Optional Private Claim / Statement of Case Text (Stateless Zero-Retention Audit)",
+      "type": "string",
+      "description": "Optional draft claim text for stateless ephemeral exposure auditing (wiped in finally: block).",
+      "editor": "textarea"
+    },
+    "limit": {
+      "title": "Maximum Precedents Returned",
+      "type": "integer",
+      "description": "Maximum number of matched GOV.UK RRO tribunal rulings to return (1..100).",
+      "default": 15,
+      "minimum": 1,
+      "maximum": 100
+    }
+  },
+  "required": []
+}

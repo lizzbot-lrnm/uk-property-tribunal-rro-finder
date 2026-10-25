@@ -1,0 +1,24 @@
+{
+  "actorSpecification": 1,
+  "name": "uk-property-tribunal-rro-finder",
+  "title": "UK Property Tribunal RRO Precedent Finder & Award Calculator",
+  "description": "Search 281 real GOV.UK First-tier Tribunal (Property Chamber) Rent Repayment Order (RRO) decisions and calculate 1–24 month Renters' Rights Act 2026 exposure, UC/utility deductions, and s.44 mitigation schedules with 0 LLM tokens.",
+  "seoTitle": "UK Property Tribunal RRO Precedent Finder & Section 44 Calculator",
+  "seoDescription": "Search 281 real GOV.UK Residential Property Tribunal Rent Repayment Order (RRO) rulings and generate Section 44 mitigation & quantum schedules.",
+  "categories": [
+    "AI",
+    "DEVELOPER_TOOLS",
+    "LEAD_GENERATION"
+  ],
+  "version": "0.1",
+  "buildTag": "latest",
+  "meta": {
+    "templateId": "python-start"
+  },
+  "input": "./input_schema.json",
+  "output": "./output_schema.json",
+  "dockerfile": "../Dockerfile",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  }
+}

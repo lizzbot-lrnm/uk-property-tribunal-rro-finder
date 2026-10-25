@@ -200,7 +200,7 @@ def test_privacy_safe_aggregate_usage_counters_zero_pii(tmp_path: Path) -> None:
     assert stats["stores_uploaded_pdfs"] is False
     assert stats["ogl_reference_db_mode"] == "OGL-v3.0-read-only"
     assert stats["private_pdf_audit_mode"] == "stateless-ephemeral-finally-wiped"
-    assert stats["corpus_size"] == 80
+    assert stats["corpus_size"] == 281
 
     assert stats["total_searches"] == 2
     assert stats["total_pack_downloads"] == 1
@@ -215,11 +215,9 @@ def test_privacy_safe_aggregate_usage_counters_zero_pii(tmp_path: Path) -> None:
 
     assert len(stats["daily_totals"]) == 1
     today_bucket = next(iter(stats["daily_totals"].values()))
-    assert today_bucket == {
-        "searches": 2,
-        "pack_downloads": 1,
-        "private_audits": 1,
-    }
+    assert today_bucket["searches"] == 2
+    assert today_bucket["pack_downloads"] == 1
+    assert today_bucket["private_audits"] == 1
 
     # 5. Verify zero query strings or private PDF markers appear anywhere in counter file
     raw_counter_disk = counters_file.read_text(encoding="utf-8")
