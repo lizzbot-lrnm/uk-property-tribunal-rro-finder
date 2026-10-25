@@ -5,6 +5,7 @@ Zero-token deterministic ingestion, extraction, SQLite FTS5 + local CPU vector s
 - **Live Web UI:** [`https://parish.technoplusit.co.uk/rro`](https://parish.technoplusit.co.uk/rro)
 - **Live JSON Search API:** [`https://parish.technoplusit.co.uk/api/rro-search?q=Ealing`](https://parish.technoplusit.co.uk/api/rro-search?q=Ealing)
 - **Live Ephemeral Claim/PDF Audit API:** `POST https://parish.technoplusit.co.uk/api/rro-audit-pdf`
+- **Live North Star Usage & Privacy Telemetry API:** [`https://parish.technoplusit.co.uk/rro/stats`](https://parish.technoplusit.co.uk/rro/stats) & [`https://parish.technoplusit.co.uk/api/rro/stats`](https://parish.technoplusit.co.uk/api/rro/stats)
 - **Data License:** Open Government Licence v3.0 (`OGL v3.0`) — Crown Copyright GOV.UK Residential Property Tribunal Decisions.
 
 ## Architecture & Security Isolation

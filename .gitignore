@@ -1,2 +1,3 @@
+data/rro_usage_counters.json
 __pycache__/
-*.pyc
+.pytest_cache/

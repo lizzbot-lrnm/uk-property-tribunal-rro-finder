@@ -155,3 +155,78 @@ def test_ocr_ligature_parser_unit() -> None:
     assert parsed["awarded_gbp"] == 8400.0
     assert parsed["award_pct_of_rent"] == 40.0
     assert parsed["offence_type"] == "Selective Licensing (s.95)"
+
+
+def test_privacy_safe_aggregate_usage_counters_zero_pii(tmp_path: Path) -> None:
+    """
+    Verify that searches, CSV pack downloads, and private PDF audits increment
+    aggregate counters (`total_searches`, `total_pack_downloads`, `total_private_audits`,
+    and `daily_totals[YYYY-MM-DD]`), expose explicit privacy attestations, never store
+    queries/IPs/PDFs, and keep `rro_precedents.sqlite` strictly read-only (`?mode=ro`).
+    """
+    from rro_engine import get_rro_usage_stats, record_rro_usage_event
+
+    counters_file = tmp_path / "rro_usage_counters.json"
+    db_mtime_before = DEFAULT_DB_PATH.stat().st_mtime_ns
+
+    secret_query = "LON/00AJ/HMG/2025/0666_SUPER_SECRET_USER_QUERY_TOKEN"
+    secret_pdf_marker = "CONFIDENTIAL_UPLOADED_PDF_MARKER_889900"
+
+    # 1. Run 2 searches
+    search_rro_precedents(q="Ealing", counters_path=counters_file)
+    search_rro_precedents(q=secret_query, counters_path=counters_file)
+
+    # 2. Run 1 CSV pack download
+    search_rro_precedents(region="London", export_format="csv", counters_path=counters_file)
+
+    # 3. Run 1 private PDF/claim audit
+    audit_res = audit_private_pdf_bytes(
+        claim_text=f"Private claim {secret_pdf_marker} in Ealing London for £19,500 under s.72(1).",
+        region_hint="London",
+        claimed_gbp_hint=19500.0,
+        counters_path=counters_file,
+    )
+    assert audit_res["ephemeral_wiped"] is True
+
+    # 4. Reject any unsupported event type
+    with pytest.raises(ValueError):
+        record_rro_usage_event("raw_query_log", counters_path=counters_file)
+
+    stats = get_rro_usage_stats(counters_path=counters_file)
+    assert stats["status"] == "ok"
+    assert stats["privacy_mode"] == "aggregate-counters-only-zero-pii"
+    assert stats["stores_ip_addresses"] is False
+    assert stats["stores_search_queries"] is False
+    assert stats["stores_uploaded_pdfs"] is False
+    assert stats["ogl_reference_db_mode"] == "OGL-v3.0-read-only"
+    assert stats["private_pdf_audit_mode"] == "stateless-ephemeral-finally-wiped"
+    assert stats["corpus_size"] == 80
+
+    assert stats["total_searches"] == 2
+    assert stats["total_pack_downloads"] == 1
+    assert stats["total_private_audits"] == 1
+    assert stats["north_star_7d_targets"] == {
+        "searches_target": 100,
+        "pack_downloads_target": 10,
+        "paid_pack_price_gbp": 29,
+    }
+    assert stats["progress_pct"]["searches_pct"] == 2.0
+    assert stats["progress_pct"]["pack_downloads_pct"] == 10.0
+
+    assert len(stats["daily_totals"]) == 1
+    today_bucket = next(iter(stats["daily_totals"].values()))
+    assert today_bucket == {
+        "searches": 2,
+        "pack_downloads": 1,
+        "private_audits": 1,
+    }
+
+    # 5. Verify zero query strings or private PDF markers appear anywhere in counter file
+    raw_counter_disk = counters_file.read_text(encoding="utf-8")
+    assert secret_query not in raw_counter_disk
+    assert secret_pdf_marker not in raw_counter_disk
+    assert "Ealing" not in raw_counter_disk
+
+    # 6. Verify rro_precedents.sqlite was never written to
+    db_mtime_after = DEFAULT_DB_PATH.stat().st_mtime_ns
+    assert db_mtime_after == db_mtime_before

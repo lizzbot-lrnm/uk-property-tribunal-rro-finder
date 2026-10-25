@@ -17,6 +17,7 @@ Security & Isolation:
 from __future__ import annotations
 
 import csv
+import datetime as dt
 import hashlib
 import io
 import json
@@ -50,6 +51,8 @@ DATA_DIR = BASE_DIR / "data"
 DEFAULT_DB_PATH = DATA_DIR / "rro_precedents.sqlite"
 DEFAULT_JSON_PATH = DATA_DIR / "rro_precedents.json"
 DEFAULT_CSV_PATH = DATA_DIR / "rro_precedents_pack.csv"
+DEFAULT_COUNTERS_PATH = DATA_DIR / "rro_usage_counters.json"
+ALLOWED_USAGE_EVENTS = ("search", "pack_download", "private_audit")
 
 GOV_UK_SEARCH_API = (
     "https://www.gov.uk/api/search.json"
@@ -582,6 +585,120 @@ def build_sqlite_index(records: list[dict[str, Any]], db_path: Path = DEFAULT_DB
         conn.close()
 
 
+
+def _load_raw_counters(counters_path: Path = DEFAULT_COUNTERS_PATH) -> dict[str, Any]:
+    if counters_path.exists():
+        try:
+            data = json.loads(counters_path.read_text(encoding="utf-8"))
+            if isinstance(data, dict):
+                return {
+                    "total_searches": int(data.get("total_searches", 0)),
+                    "total_pack_downloads": int(data.get("total_pack_downloads", 0)),
+                    "total_private_audits": int(data.get("total_private_audits", 0)),
+                    "daily_totals": dict(data.get("daily_totals", {})),
+                }
+        except Exception:
+            pass
+    return {
+        "total_searches": 0,
+        "total_pack_downloads": 0,
+        "total_private_audits": 0,
+        "daily_totals": {},
+    }
+
+
+def record_rro_usage_event(
+    event_type: str,
+    counters_path: Path = DEFAULT_COUNTERS_PATH,
+) -> dict[str, Any]:
+    """
+    Records a privacy-safe aggregate counter increment ONLY.
+    Accepts strictly `event_type in ("search", "pack_download", "private_audit")`.
+    Takes zero query, IP, or PDF parameters so PII/query logging is architecturally impossible.
+    Never writes to the read-only OGL v3.0 SQLite database (`rro_precedents.sqlite`).
+    """
+    if event_type not in ALLOWED_USAGE_EVENTS:
+        raise ValueError(f"Unsupported event_type: {event_type!r}. Allowed: {ALLOWED_USAGE_EVENTS}")
+
+    state = _load_raw_counters(counters_path)
+    today_utc = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
+    daily = state["daily_totals"].get(today_utc) or {
+        "searches": 0,
+        "pack_downloads": 0,
+        "private_audits": 0,
+    }
+    daily = {
+        "searches": int(daily.get("searches", 0)),
+        "pack_downloads": int(daily.get("pack_downloads", 0)),
+        "private_audits": int(daily.get("private_audits", 0)),
+    }
+
+    if event_type == "search":
+        state["total_searches"] += 1
+        daily["searches"] += 1
+    elif event_type == "pack_download":
+        state["total_pack_downloads"] += 1
+        daily["pack_downloads"] += 1
+    elif event_type == "private_audit":
+        state["total_private_audits"] += 1
+        daily["private_audits"] += 1
+
+    state["daily_totals"][today_utc] = daily
+
+    counters_path.parent.mkdir(parents=True, exist_ok=True)
+    tmp_path = counters_path.with_suffix(".tmp")
+    tmp_path.write_text(json.dumps(state, indent=2, sort_keys=True), encoding="utf-8")
+    tmp_path.replace(counters_path)
+    return get_rro_usage_stats(counters_path=counters_path)
+
+
+def get_rro_usage_stats(
+    counters_path: Path = DEFAULT_COUNTERS_PATH,
+    db_path: Path = DEFAULT_DB_PATH,
+) -> dict[str, Any]:
+    """
+    Returns the read-only North Star 7-day gate usage telemetry and privacy attestation.
+    """
+    state = _load_raw_counters(counters_path)
+    corpus_size = 80
+    if db_path.exists():
+        conn = open_readonly_reference_db(db_path)
+        try:
+            corpus_size = int(conn.execute("SELECT COUNT(*) FROM rro_decisions").fetchone()[0])
+        finally:
+            conn.close()
+
+    searches_target = 100
+    pack_downloads_target = 10
+    total_searches = state["total_searches"]
+    total_pack_downloads = state["total_pack_downloads"]
+    total_private_audits = state["total_private_audits"]
+
+    return {
+        "status": "ok",
+        "privacy_mode": "aggregate-counters-only-zero-pii",
+        "stores_ip_addresses": False,
+        "stores_search_queries": False,
+        "stores_uploaded_pdfs": False,
+        "ogl_reference_db_mode": "OGL-v3.0-read-only",
+        "private_pdf_audit_mode": "stateless-ephemeral-finally-wiped",
+        "corpus_size": corpus_size,
+        "total_searches": total_searches,
+        "total_pack_downloads": total_pack_downloads,
+        "total_private_audits": total_private_audits,
+        "daily_totals": state["daily_totals"],
+        "north_star_7d_targets": {
+            "searches_target": searches_target,
+            "pack_downloads_target": pack_downloads_target,
+            "paid_pack_price_gbp": 29,
+        },
+        "progress_pct": {
+            "searches_pct": round((total_searches / searches_target) * 100.0, 1),
+            "pack_downloads_pct": round((total_pack_downloads / pack_downloads_target) * 100.0, 1),
+        },
+    }
+
+
 def open_readonly_reference_db(db_path: Path = DEFAULT_DB_PATH) -> sqlite3.Connection:
     """
     Opens the public OGL v3.0 reference SQLite database in strict read-only URI mode (`?mode=ro`).
@@ -601,10 +718,17 @@ def search_rro_precedents(
     max_pct: float | None = None,
     limit: int = 25,
     db_path: Path = DEFAULT_DB_PATH,
+    *,
+    export_format: str = "json",
+    record_usage: bool = True,
+    counters_path: Path = DEFAULT_COUNTERS_PATH,
 ) -> dict[str, Any]:
     """
     Searches the read-only OGL v3.0 SQLite FTS5 + vector similarity index.
     """
+    if record_usage:
+        ev = "pack_download" if str(export_format).lower() == "csv" else "search"
+        record_rro_usage_event(ev, counters_path=counters_path)
     conn = open_readonly_reference_db(db_path)
     try:
         cur = conn.cursor()
@@ -718,6 +842,9 @@ def audit_private_pdf_bytes(
     region_hint: str = "",
     claimed_gbp_hint: float | None = None,
     db_path: Path = DEFAULT_DB_PATH,
+    *,
+    record_usage: bool = True,
+    counters_path: Path = DEFAULT_COUNTERS_PATH,
 ) -> dict[str, Any]:
     """
     Stateless per-request private RRO claim / PDF audit.
@@ -755,12 +882,16 @@ def audit_private_pdf_bytes(
         detected_mitigation = parsed_private["mitigation_factors"]
 
         # Query read-only public OGL v3.0 index for matching region & offence precedents
+        if record_usage:
+            record_rro_usage_event("private_audit", counters_path=counters_path)
+
         precedent_search = search_rro_precedents(
             q="",
             region=effective_region if effective_region != "Regional" else "",
             offence_type=effective_offence.split("(")[0].strip(),
             limit=15,
             db_path=db_path,
+            record_usage=False,
         )
         if precedent_search["stats"]["total_matched"] < 3:
             precedent_search = search_rro_precedents(
@@ -769,6 +900,7 @@ def audit_private_pdf_bytes(
                 offence_type="",
                 limit=15,
                 db_path=db_path,
+                record_usage=False,
             )
 
         median_pct = precedent_search["stats"]["median_award_pct"] or 55.0
