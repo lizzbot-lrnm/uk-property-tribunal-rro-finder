@@ -2,8 +2,9 @@
 """
 Deterministic IndexNow Instant Indexing Verifier & Submitter for parish.technoplusit.co.uk.
 Pushes all 93 URLs (root, /rro, /rro/stats, /llms.txt, /sitemap.xml, and all 88 programmatic /rro/<slug> pages)
-to https://api.indexnow.org/indexnow (shared across Bing, DuckDuckGo, Yandex, Seznam, Naver).
+across IndexNow federation endpoints (Yandex, Naver, api.indexnow.org).
 Passes all external HTTP responses through /workspace/worf_quarantine.py.
+Always sends X-Internal-Test: 1 on edge verification checks so internal verification never inflates funnel stats.
 """
 
 from __future__ import annotations
@@ -23,7 +24,11 @@ BASE_DIR = Path(__file__).resolve().parent
 SEO_PAGES_JSON_PATH = BASE_DIR / "seo_pages.json"
 INDEXNOW_KEY_PATH = BASE_DIR / "indexnow_key.txt"
 INDEXNOW_PAYLOAD_PATH = BASE_DIR / "indexnow_payload.json"
-INDEXNOW_ENDPOINT = "https://api.indexnow.org/indexnow"
+INDEXNOW_ENDPOINTS = [
+    "https://yandex.com/indexnow",
+    "https://searchadvisor.naver.com/indexnow",
+    "https://api.indexnow.org/indexnow",
+]
 HOST = "parish.technoplusit.co.uk"
 
 
@@ -54,7 +59,13 @@ def check_live_edge_routes(key: str) -> dict[str, Any]:
     checks: dict[str, Any] = {}
     for path in [f"/{key}.txt", "/sitemap.xml", "/robots.txt", "/llms.txt", "/rro", "/rro/tower-hamlets"]:
         url = f"https://{HOST}{path}"
-        req = urllib.request.Request(url, headers={"User-Agent": "Max-SEO-Verifier/1.0"})
+        req = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": "Max-SEO-Verifier/1.1",
+                "X-Internal-Test": "1",
+            },
+        )
         try:
             with urllib.request.urlopen(req, timeout=10) as resp:
                 raw_body = resp.read().decode("utf-8", errors="replace")
@@ -74,42 +85,50 @@ def check_live_edge_routes(key: str) -> dict[str, Any]:
 
 def submit_to_indexnow(payload: dict[str, Any]) -> dict[str, Any]:
     data_bytes = json.dumps(payload).encode("utf-8")
-    req = urllib.request.Request(
-        INDEXNOW_ENDPOINT,
-        data=data_bytes,
-        headers={
-            "Content-Type": "application/json; charset=utf-8",
-            "User-Agent": "Max-SEO-Verifier/1.0",
-        },
-        method="POST",
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            raw_body = resp.read().decode("utf-8", errors="replace")
-            worf = scan_payload(raw_body[:2000], source=INDEXNOW_ENDPOINT)
-            return {
-                "http_status": resp.status,
-                "response": raw_body[:300] if worf["quarantine_passed"] else "[QUARANTINED]",
+    endpoint_results: dict[str, Any] = {}
+    any_accepted = False
+    for endpoint in INDEXNOW_ENDPOINTS:
+        req = urllib.request.Request(
+            endpoint,
+            data=data_bytes,
+            headers={
+                "Content-Type": "application/json; charset=utf-8",
+                "User-Agent": "Max-SEO-Verifier/1.1",
+            },
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                raw_body = resp.read().decode("utf-8", errors="replace")
+                worf = scan_payload(raw_body[:2000], source=endpoint)
+                if resp.status in (200, 202):
+                    any_accepted = True
+                endpoint_results[endpoint] = {
+                    "http_status": resp.status,
+                    "response": raw_body[:300].strip() if worf["quarantine_passed"] else "[QUARANTINED]",
+                    "worf_verdict": worf["verdict"],
+                }
+        except urllib.error.HTTPError as e:
+            err_body = e.read().decode("utf-8", errors="replace") if e.fp else ""
+            worf = scan_payload(err_body[:2000], source=endpoint)
+            endpoint_results[endpoint] = {
+                "http_status": e.code,
+                "error": str(e.reason),
+                "response": err_body[:300].strip() if worf["quarantine_passed"] else "[QUARANTINED]",
                 "worf_verdict": worf["verdict"],
-                "submitted_url_count": len(payload["urlList"]),
             }
-    except urllib.error.HTTPError as e:
-        err_body = e.read().decode("utf-8", errors="replace") if e.fp else ""
-        worf = scan_payload(err_body[:2000], source=INDEXNOW_ENDPOINT)
-        return {
-            "http_status": e.code,
-            "error": str(e.reason),
-            "response": err_body[:300] if worf["quarantine_passed"] else "[QUARANTINED]",
-            "worf_verdict": worf["verdict"],
-            "submitted_url_count": len(payload["urlList"]),
-        }
-    except Exception as e:
-        return {"http_status": 0, "error": str(e)}
+        except Exception as e:
+            endpoint_results[endpoint] = {"http_status": 0, "error": str(e)}
+    return {
+        "federation_accepted": any_accepted,
+        "submitted_url_count": len(payload["urlList"]),
+        "endpoints": endpoint_results,
+    }
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--submit", action="store_true", help="Force POST to api.indexnow.org/indexnow")
+    parser.add_argument("--submit", action="store_true", help="Force POST to IndexNow federation endpoints")
     args = parser.parse_args()
 
     payload = build_indexnow_payload()
