@@ -1,0 +1,257 @@
+{
+  "schema_version": "1.0.0",
+  "generated_by": "Googes (/workspace/harnesses/google_harness.py)",
+  "worf_quarantine_verified": true,
+  "source_files": [
+    "/workspace/inbox-quarantine/founder-funnel-digest-2026-10-25.txt",
+    "/workspace/inbox-quarantine/rro_199_decisions.json"
+  ],
+  "corpus_statistics": {
+    "total_decisions_in_corpus": 199,
+    "decisions_coded_for_mitigation": 68,
+    "pct_stating_single_overall_award_without_explicit_step": 85.0,
+    "s72_hmo_explicit_starting_point_median_pct": 60.0,
+    "s72_hmo_explicit_starting_point_range_pct": [
+      25.0,
+      100.0
+    ],
+    "s72_hmo_explicit_starting_point_n": 19,
+    "s72_hmo_final_award_median_pct": 60.0,
+    "s72_hmo_final_award_range_pct": [
+      15.0,
+      100.0
+    ],
+    "s72_hmo_final_award_n": 61,
+    "s95_selective_final_award_median_pct": 40.0,
+    "s95_selective_final_award_n": 5
+  },
+  "calculator_modeling_recommendation": {
+    "method": "nearest_case_and_baseline_band_estimator",
+    "rationale": "85% of FTT RRO decisions state a single overall award percentage rather than additive step-by-step arithmetic (only ~8 clean explicit step-adjustment decisions in 199). Daneel's RRO calculator should anchor on offence baseline medians (60% for s.72 HMO; 40% for s.95 selective licensing), apply bounded step adjustments (-35% documented hardship, -30% low culpability/prompt action/health, -5% first offence mitigation, +5% to +10% disrepair/conduct aggravation), and display the 3 nearest cited gov.uk decisions.",
+    "reference_step_adjustments_pct": {
+      "s72_vs_eviction_scaling_from_100pct_max": -25.0,
+      "documented_financial_hardship": -35.0,
+      "low_seriousness_culpability_prompt_action_and_health": -30.0,
+      "first_offence_clean_record_minor_mitigation": -5.0,
+      "disrepair_or_late_licence_aggravation_moderate": 5.0,
+      "slow_repairs_pests_leaks_non_engagement_aggravation": 10.0
+    }
+  },
+  "step_adjustment_cases": [
+    {
+      "case_ref": "LON/00BH/HMG/2025/0616",
+      "primary_offence_category": "HMO (Housing Act 2004 s.72)",
+      "starting_point_pct": 20.0,
+      "step_adjustments": [
+        {
+          "delta_pct": 10.0,
+          "direction": "aggravating_addition",
+          "category": "landlord_conduct_and_property_condition",
+          "rationale": "Aggravated by landlord conduct: slow repairs, water leaks, mice infestation, and failure to engage."
+        }
+      ],
+      "net_adjustment_pct": 10.0,
+      "final_award_pct": 30.0,
+      "verification_status": "hand_checked_in_run_87",
+      "decision_date": "2025-11-04",
+      "region": "London",
+      "respondent_type": "company",
+      "claimed_gbp": 23953.0,
+      "awarded_gbp": 7185.9,
+      "award_source": "direct",
+      "coded_factors_from_199_dataset": [
+        "fire safety",
+        "disrepair/condition",
+        "first offence / no prior conviction",
+        "reasonable excuse raised",
+        "utilities deducted",
+        "tenant conduct issues",
+        "professional/portfolio landlord"
+      ],
+      "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/15-dyson-road-london-e11-1na-lon-slash-00bh-slash-hmg-slash-2025-slash-0616",
+      "url_http_status": 200
+    },
+    {
+      "case_ref": "LON/00BH/HMF/2025/0736",
+      "primary_offence_category": "HMO (Housing Act 2004 s.72)",
+      "starting_point_pct": 100.0,
+      "step_adjustments": [
+        {
+          "delta_pct": -25.0,
+          "direction": "offence_severity_scaling",
+          "category": "s72_vs_eviction_baseline",
+          "rationale": "Worked down from 100% maximum: -25% because s.72 unlicensed HMO is less serious than unlawful eviction."
+        },
+        {
+          "delta_pct": -30.0,
+          "direction": "mitigating_deduction",
+          "category": "low_culpability_prompt_remediation_and_health",
+          "rationale": "-30% deduction for low seriousness and culpability, prompt remedial action, and landlord health mitigation."
+        }
+      ],
+      "net_adjustment_pct": -55.0,
+      "final_award_pct": 45.0,
+      "verification_status": "hand_checked_in_run_87",
+      "decision_date": "2026-04-22",
+      "region": "London",
+      "respondent_type": "company",
+      "claimed_gbp": 24033.89,
+      "awarded_gbp": 10763.62,
+      "award_source": "direct",
+      "coded_factors_from_199_dataset": [
+        "fire safety",
+        "disrepair/condition",
+        "reasonable excuse raised",
+        "utilities deducted",
+        "tenant conduct issues",
+        "rent-to-rent / superior landlord"
+      ],
+      "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/x3-35-rodney-place-london-e17-5nn-lon-slash-00bh-slash-hmf-slash-2025-slash-0736",
+      "url_http_status": 200
+    },
+    {
+      "case_ref": "LON/00AZ/HMF/2025/0928",
+      "primary_offence_category": "HMO (Housing Act 2004 s.72)",
+      "starting_point_pct": 75.0,
+      "step_adjustments": [
+        {
+          "delta_pct": 5.0,
+          "direction": "aggravating_addition",
+          "category": "disrepair_and_conduct",
+          "rationale": "+5% upward adjustment from 75% starting point (disrepair/condition issues noted)."
+        }
+      ],
+      "net_adjustment_pct": 5.0,
+      "final_award_pct": 80.0,
+      "verification_status": "coded_from_decision",
+      "decision_date": "2026-06-25",
+      "region": "London",
+      "respondent_type": "individual",
+      "claimed_gbp": 1800.0,
+      "awarded_gbp": null,
+      "award_source": "none",
+      "coded_factors_from_199_dataset": [
+        "disrepair/condition",
+        "reasonable excuse raised",
+        "utilities deducted"
+      ],
+      "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/49b-jerningham-road-london-se14-5nq-lon-slash-00az-slash-hmf-slash-2025-slash-0928",
+      "url_http_status": 200
+    },
+    {
+      "case_ref": "CAM/00KF/HMJ/2025/0011",
+      "primary_offence_category": "HMO (Housing Act 2004 s.72)",
+      "starting_point_pct": 25.0,
+      "step_adjustments": [
+        {
+          "delta_pct": 10.0,
+          "direction": "aggravating_addition",
+          "category": "disrepair_and_late_licensing",
+          "rationale": "+10% upward adjustment from 25% starting point (disrepair/condition and late licence application)."
+        }
+      ],
+      "net_adjustment_pct": 10.0,
+      "final_award_pct": 35.0,
+      "verification_status": "coded_from_decision",
+      "decision_date": "2026-05-13",
+      "region": "Eastern (Cambridge)",
+      "respondent_type": "unspecified",
+      "claimed_gbp": 14140.0,
+      "awarded_gbp": null,
+      "award_source": "none",
+      "coded_factors_from_199_dataset": [
+        "disrepair/condition",
+        "reasonable excuse raised",
+        "utilities deducted",
+        "licence applied late"
+      ],
+      "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/50a-eastern-esplanade-southend-on-sea-ss1-2es-cam-slash-00kf-slash-hmj-slash-2025-slash-0011",
+      "url_http_status": 200
+    },
+    {
+      "case_ref": "LON/00AM/HMF/2022/0200",
+      "primary_offence_category": "HMO (Housing Act 2004 s.72)",
+      "starting_point_pct": 50.0,
+      "step_adjustments": [
+        {
+          "delta_pct": -5.0,
+          "direction": "mitigating_deduction",
+          "category": "first_offence_no_prior_conviction",
+          "rationale": "-5% mitigating deduction from 50% starting point (first offence / no prior conviction despite disrepair/unprotected deposit)."
+        }
+      ],
+      "net_adjustment_pct": -5.0,
+      "final_award_pct": 45.0,
+      "verification_status": "coded_from_decision",
+      "decision_date": "2025-10-22",
+      "region": "London",
+      "respondent_type": "individual",
+      "claimed_gbp": 1.37,
+      "awarded_gbp": 1741.68,
+      "award_source": "inferred",
+      "coded_factors_from_199_dataset": [
+        "disrepair/condition",
+        "deposit not protected",
+        "first offence / no prior conviction",
+        "professional/portfolio landlord"
+      ],
+      "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/58-george-downing-estate-cazenove-road-london-n16-8be-lon-slash-00am-slash-hmf-slash-2022-slash-0200",
+      "url_http_status": 200
+    },
+    {
+      "case_ref": "MAN/00BY/HMG/2024/0606",
+      "primary_offence_category": "Selective Licensing (Housing Act 2004 s.95)",
+      "starting_point_pct": 75.0,
+      "step_adjustments": [
+        {
+          "delta_pct": -5.0,
+          "direction": "mitigating_deduction",
+          "category": "mitigation_factors",
+          "rationale": "-5% mitigating deduction from 75% starting point on s.95 selective licensing offence."
+        }
+      ],
+      "net_adjustment_pct": -5.0,
+      "final_award_pct": 70.0,
+      "verification_status": "coded_from_decision",
+      "decision_date": "2026-02-19",
+      "region": "Northern (Manchester)",
+      "respondent_type": "unspecified",
+      "claimed_gbp": null,
+      "awarded_gbp": 5800.97,
+      "award_source": "direct",
+      "coded_factors_from_199_dataset": [
+        "disrepair/condition",
+        "reasonable excuse raised"
+      ],
+      "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/c101-parliament-square-8-crump-street-liverpool-l1-0dq-man-slash-00by-slash-hmg-slash-2024-slash-0606",
+      "url_http_status": 200
+    },
+    {
+      "case_ref": "LON/00BB/HMF/2026/0016",
+      "primary_offence_category": "HMO (Housing Act 2004 s.72)",
+      "starting_point_pct": 50.0,
+      "step_adjustments": [
+        {
+          "delta_pct": -35.0,
+          "direction": "mitigating_deduction",
+          "category": "documented_financial_hardship",
+          "rationale": "-35% deduction from 50% starting point down to 15% for documented landlord financial hardship."
+        }
+      ],
+      "net_adjustment_pct": -35.0,
+      "final_award_pct": 15.0,
+      "verification_status": "coded_from_decision",
+      "decision_date": "2026-07-23",
+      "region": "London",
+      "respondent_type": "individual",
+      "claimed_gbp": null,
+      "awarded_gbp": 615.0,
+      "award_source": "direct",
+      "coded_factors_from_199_dataset": [
+        "reasonable excuse raised"
+      ],
+      "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/32a-little-ilford-lane-london-e12-5pw-lon-slash-00bb-slash-hmf-slash-2026-slash-0016",
+      "url_http_status": 200
+    }
+  ]
+}

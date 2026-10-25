@@ -20,6 +20,7 @@ if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
 from rro_engine import (
+    calculate_rro_award_and_schedule,
     DEFAULT_CSV_PATH,
     DEFAULT_DB_PATH,
     DEFAULT_JSON_PATH,
@@ -249,3 +250,51 @@ def test_award_source_provenance_and_direct_median_accuracy() -> None:
         assert row["respondent_type"] in ("individual", "corporate")
         if row["award_source"] == "inferred":
             assert row["awarded_gbp"] is not None and row["awarded_gbp"] > 0
+
+
+def test_step_adjustments_7cases_benchmark_wired(tmp_path: Path):
+    """
+    Verifies that rro_step_adjustments_7cases.json is wired into calculate_rro_award_and_schedule:
+    - 60.0% baseline median for s.72 HMO licensing
+    - 40.0% baseline median for s.95 selective licensing
+    - All 7 step-adjustment precedents (LON/00BH/HMG/2025/0616 et al.) cited in JSON, Markdown, and CSV schedule exports.
+    """
+    counters_file = tmp_path / "counters_step.json"
+    res_s72 = calculate_rro_award_and_schedule(
+        monthly_rent_gbp=1800.0,
+        months_unlicensed=12,
+        universal_credit_housing_gbp=0.0,
+        utilities_included_monthly_gbp=150.0,
+        region="London",
+        offence_type="Unlicensed HMO (s.72)",
+        mitigation_factors=["first_offence_clean_record_minor_mitigation"],
+        internal=True,
+        counters_path=counters_file,
+    )
+    assert res_s72["calculation"]["s72_hmo_baseline_median_pct"] == 60.0
+    assert res_s72["calculation"]["s95_selective_baseline_median_pct"] == 40.0
+    assert res_s72["calculation"]["offence_baseline_median_pct"] == 60.0
+    assert res_s72["calculation"]["net_mitigation_pct_adjustment"] == -5.0
+    assert res_s72["calculation"]["predicted_award_pct_median"] == 55.0
+
+    bench = res_s72["step_adjustment_benchmark"]
+    assert bench["worf_quarantine_verified"] is True
+    step_refs = [c["case_ref"] for c in bench["all_7_step_adjustment_cases"]]
+    assert len(step_refs) == 7
+    assert "LON/00BH/HMG/2025/0616" in step_refs
+    assert "LON/00BH/HMF/2025/0736" in step_refs
+    assert "LON/00BB/HMF/2026/0016" in step_refs
+    assert "LON/00BH/HMG/2025/0616" in res_s72["schedule_markdown"]
+    assert "STEP_ADJUSTMENT_PRECEDENT,LON/00BH/HMG/2025/0616" in res_s72["schedule_csv"]
+
+    res_s95 = calculate_rro_award_and_schedule(
+        monthly_rent_gbp=1500.0,
+        months_unlicensed=12,
+        region="Northern",
+        offence_type="Selective Licensing (s.95)",
+        mitigation_factors=[],
+        internal=True,
+        counters_path=counters_file,
+    )
+    assert res_s95["calculation"]["offence_baseline_median_pct"] == 40.0
+    assert res_s95["calculation"]["predicted_award_pct_median"] == 40.0
