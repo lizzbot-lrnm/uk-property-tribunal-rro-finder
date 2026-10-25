@@ -310,7 +310,7 @@ def run_funnel_telemetry() -> dict[str, Any]:
         "gates_3_7_14_30_day": gates,
     }
 
-    out_path = Path("/workspace/finance/metrics/funnel-telemetry-latest.json")
+    out_path = Path("./data/funnel-telemetry-latest.json")
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     return report

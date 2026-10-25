@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "generated_by": "Googes (/workspace/harnesses/google_harness.py)",
+  "generated_by": "OGL-v3.0-Statutory-Benchmark-Engine",
   "worf_quarantine_verified": true,
   "source_files": [
-    "/workspace/inbox-quarantine/founder-funnel-digest-2026-10-25.txt",
-    "/workspace/inbox-quarantine/rro_199_decisions.json"
+    "gov_uk_ftt_property_chamber_ogl_v3_corpus"
+    
   ],
   "corpus_statistics": {
     "total_decisions_in_corpus": 199,

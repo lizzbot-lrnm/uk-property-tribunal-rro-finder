@@ -2,11 +2,11 @@
 """
 Deterministic Programmatic SEO & AI-Agent Discovery Builder for UK Property Tribunal RRO Finder.
 Generates from the real GOV.UK RRO SQLite database (281 decisions):
-  - /workspace/revenue/uk-property-tribunal-rro-finder/seo_pages.json
-  - /workspace/revenue/uk-property-tribunal-rro-finder/sitemap.xml
-  - /workspace/revenue/uk-property-tribunal-rro-finder/robots.txt
-  - /workspace/revenue/uk-property-tribunal-rro-finder/llms.txt
-  - /workspace/revenue/uk-property-tribunal-rro-finder/indexnow_key.txt
+  - ./seo_pages.json
+  - ./sitemap.xml
+  - ./robots.txt
+  - ./llms.txt
+  - ./indexnow_key.txt
 
 Strictly reads from the OGL v3.0 SQLite database in read-only URI mode (?mode=ro).
 Zero LLM tokens. Zero fabricated statistics.
