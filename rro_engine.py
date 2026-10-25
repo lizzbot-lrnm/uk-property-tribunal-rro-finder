@@ -539,6 +539,8 @@ def build_sqlite_index(records: list[dict[str, Any]], db_path: Path = DEFAULT_DB
                 claimed_gbp REAL,
                 awarded_gbp REAL,
                 award_pct_of_rent REAL,
+                award_source TEXT NOT NULL DEFAULT 'direct',
+                respondent_type TEXT NOT NULL DEFAULT 'individual',
                 mitigation_factors TEXT NOT NULL,
                 judge_summary TEXT NOT NULL,
                 pdf_url TEXT NOT NULL,
@@ -565,9 +567,9 @@ def build_sqlite_index(records: list[dict[str, Any]], db_path: Path = DEFAULT_DB
                 """
                 INSERT INTO rro_decisions (
                     case_ref, title, region, decision_date, offence_type,
-                    claimed_gbp, awarded_gbp, award_pct_of_rent,
+                    claimed_gbp, awarded_gbp, award_pct_of_rent, award_source, respondent_type,
                     mitigation_factors, judge_summary, pdf_url, gov_uk_url, embedding_json
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """,
                 (
                     r["case_ref"],
@@ -578,6 +580,8 @@ def build_sqlite_index(records: list[dict[str, Any]], db_path: Path = DEFAULT_DB
                     r["claimed_gbp"],
                     r["awarded_gbp"],
                     r["award_pct_of_rent"],
+                    r.get("award_source") or ("direct" if (r.get("awarded_gbp") and r["awarded_gbp"] > 0) else "none"),
+                    r.get("respondent_type") or "individual",
                     mit_json,
                     r["judge_summary"],
                     r["pdf_url"],
@@ -747,9 +751,13 @@ def record_rro_buy_pack_intent(
     region: str = "London",
     party_role: str = "landlord_defence",
     *,
+    offence_type: str = "Unlicensed HMO (s.72)",
+    role: str | None = None,
     internal: bool = False,
     counters_path: Path = DEFAULT_COUNTERS_PATH,
 ) -> dict[str, Any]:
+    if role is not None:
+        party_role = "tenant_claim" if "tenant" in str(role).lower() else "landlord_defence" 
     """
     Records a high-intent £29 Complete Regional Defence & Precedent Dossier Pack checkout click
     (separating internal smoke tests when `internal=True`) and returns checkout metadata.
@@ -860,6 +868,9 @@ def search_rro_precedents(
         for r in rows:
             emb = json.loads(r["embedding_json"])
             sim = cosine_similarity(query_vec, emb) if query_vec else 1.0
+            row_keys = r.keys()
+            award_src = r["award_source"] if "award_source" in row_keys else ("direct" if (r["awarded_gbp"] and r["awarded_gbp"] > 0) else "none")
+            resp_type = r["respondent_type"] if "respondent_type" in row_keys else "individual"
             results.append({
                 "case_ref": r["case_ref"],
                 "title": r["title"],
@@ -869,6 +880,8 @@ def search_rro_precedents(
                 "claimed_gbp": r["claimed_gbp"],
                 "awarded_gbp": r["awarded_gbp"],
                 "award_pct_of_rent": r["award_pct_of_rent"],
+                "award_source": award_src,
+                "respondent_type": resp_type,
                 "mitigation_factors": json.loads(r["mitigation_factors"]),
                 "judge_summary": r["judge_summary"],
                 "pdf_url": r["pdf_url"],
@@ -886,17 +899,36 @@ def search_rro_precedents(
                 reverse=True,
             )
 
-        pcts = [r["award_pct_of_rent"] for r in results if r["award_pct_of_rent"] is not None and r["award_pct_of_rent"] > 0]
-        awards = [r["awarded_gbp"] for r in results if r["awarded_gbp"] is not None and r["awarded_gbp"] > 0]
+        # Compute median/mean strictly over verified direct awards (never skewed by inferred or none/0 rows)
+        direct_pcts = [
+            r["award_pct_of_rent"]
+            for r in results
+            if r.get("award_source", "direct") == "direct" and r["award_pct_of_rent"] is not None and r["award_pct_of_rent"] > 0
+        ]
+        direct_awards = [
+            r["awarded_gbp"]
+            for r in results
+            if r.get("award_source", "direct") == "direct" and r["awarded_gbp"] is not None and r["awarded_gbp"] > 0
+        ]
+        inferred_awards = [
+            r["awarded_gbp"]
+            for r in results
+            if r.get("award_source") == "inferred" and r["awarded_gbp"] is not None and r["awarded_gbp"] > 0
+        ]
+        none_count = sum(1 for r in results if r.get("award_source") == "none" or not (r.get("awarded_gbp") and r["awarded_gbp"] > 0))
         claims = [r["claimed_gbp"] for r in results if r["claimed_gbp"] is not None and r["claimed_gbp"] > 0]
 
         stats = {
             "total_matched": len(results),
-            "positive_award_count": len(awards),
-            "median_award_pct": round(float(median(pcts)), 1) if pcts else 0.0,
-            "mean_award_pct": round(sum(pcts) / len(pcts), 1) if pcts else 0.0,
+            "positive_award_count": len(direct_awards),
+            "direct_award_count": len(direct_awards),
+            "inferred_award_count": len(inferred_awards),
+            "none_or_dismissed_count": none_count,
+            "median_award_pct": round(float(median(direct_pcts)), 1) if direct_pcts else 0.0,
+            "mean_award_pct": round(sum(direct_pcts) / len(direct_pcts), 1) if direct_pcts else 0.0,
+            "median_award_gbp": round(float(median(direct_awards)), 2) if direct_awards else 0.0,
             "total_claimed_gbp": round(sum(claims), 2),
-            "total_awarded_gbp": round(sum(awards), 2),
+            "total_awarded_gbp": round(sum(direct_awards), 2),
         }
 
         return {
@@ -1031,6 +1063,11 @@ def calculate_rro_award_and_schedule(
     party_role: str = "landlord_defence",
     mitigation_factors: list[str] | str | None = None,
     *,
+    months_claimed: int | None = None,
+    universal_credit_monthly_gbp: float | None = None,
+    utilities_monthly_gbp: float | None = None,
+    role: str | None = None,
+    property_reference: str = "",
     export_format: str = "json",
     download: bool = False,
     record_usage: bool = True,
@@ -1050,6 +1087,14 @@ def calculate_rro_award_and_schedule(
         ev = "pack_download" if (fmt in ("csv", "markdown", "md") or download) else "calculator_run"
         record_rro_usage_event(ev, counters_path=counters_path, internal=internal)
 
+    if months_claimed is not None:
+        months_unlicensed = months_claimed
+    if universal_credit_monthly_gbp is not None:
+        universal_credit_housing_gbp = universal_credit_monthly_gbp
+    if utilities_monthly_gbp is not None:
+        utilities_included_monthly_gbp = utilities_monthly_gbp
+    if role is not None:
+        party_role = "tenant_claim" if "tenant" in str(role).lower() else "landlord_defence"
     rent_mo = max(0.0, float(monthly_rent_gbp if monthly_rent_gbp is not None else 1500.0))
     months = max(1, min(24, int(months_unlicensed if months_unlicensed is not None else 12)))
     uc_mo = max(0.0, float(universal_credit_housing_gbp if universal_credit_housing_gbp is not None else 0.0))
@@ -1113,7 +1158,7 @@ def calculate_rro_award_and_schedule(
     empirical_pcts = [
         float(r["award_pct_of_rent"])
         for r in candidates
-        if r.get("award_pct_of_rent") is not None and float(r["award_pct_of_rent"]) > 0
+        if r.get("award_source", "direct") == "direct" and r.get("award_pct_of_rent") is not None and float(r["award_pct_of_rent"]) > 0
     ]
     base_empirical_median_pct = round(float(median(empirical_pcts)), 1) if empirical_pcts else 60.0
 

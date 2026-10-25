@@ -5,12 +5,12 @@
 > Sitemap: https://parish.technoplusit.co.uk/sitemap.xml
 
 ## National Benchmark Summary (281 Real GOV.UK Decisions)
-- Positive RRO Awards: 156 / 281 decisions
+- Positive RRO Awards: 179 / 281 decisions
 - Median Tribunal Award % of Rent: 60.0% (Range: 2.3% to 100.0%)
-- Median Monetary RRO Award: £3,440.00
-- Total Rent Claimed Across Indexed Cases: £1,665,078.12
-- Total RRO Awarded Across Indexed Cases: £1,011,905.38
-- Top s.44 Mitigation & Deduction Factors: financial_hardship (241), delayed_council_application (223), utilities_deducted (223), universal_credit_deducted (213), director_liability (201), letting_agent_reliance (113), professional_landlord_aggravation (101), good_condition (97), tenant_conduct (59), first_offence (54), s44_statutory_conduct (6)
+- Median Monetary RRO Award: £3,400.00
+- Total Rent Claimed Across Indexed Cases: £1,900,103.67
+- Total RRO Awarded Across Indexed Cases: £1,111,752.92
+- Top s.44 Mitigation & Deduction Factors: financial_hardship (241), delayed_council_application (223), utilities_deducted (223), universal_credit_deducted (213), director_liability (201), good_condition (170), letting_agent_reliance (113), professional_landlord_aggravation (110), tenant_conduct (71), fire_safety_breach (69), first_offence (55), deposit_unprotected (8), s44_statutory_conduct (5)
 
 ## Machine-Readable API Endpoints
 - GET https://parish.technoplusit.co.uk/api/rro-search?q=Ealing&region=London&offence_type=Selective&mitigation=utilities_deducted
@@ -22,36 +22,36 @@
 ## Programmatic Borough, Region & Offence Precedent Pages (88 Slugs)
 - [London Tribunal Region (151 rulings, 60.0% median award)](https://parish.technoplusit.co.uk/rro/london)
 - [Southern Tribunal Region (34 rulings, 45.0% median award)](https://parish.technoplusit.co.uk/rro/southern)
-- [Midlands Tribunal Region (17 rulings, 59.3% median award)](https://parish.technoplusit.co.uk/rro/midlands)
+- [Midlands Tribunal Region (17 rulings, 57.1% median award)](https://parish.technoplusit.co.uk/rro/midlands)
 - [Northern Tribunal Region (47 rulings, 75.0% median award)](https://parish.technoplusit.co.uk/rro/northern)
 - [Eastern Tribunal Region (32 rulings, 50.0% median award)](https://parish.technoplusit.co.uk/rro/eastern)
-- [Liverpool (Liverpool City Council) (16 rulings, 80.0% median award)](https://parish.technoplusit.co.uk/rro/liverpool)
-- [Tower Hamlets (London Borough of Tower Hamlets) (15 rulings, 65.0% median award)](https://parish.technoplusit.co.uk/rro/tower-hamlets)
-- [Bristol (Bristol City Council) (13 rulings, 45.0% median award)](https://parish.technoplusit.co.uk/rro/bristol)
+- [Liverpool (Liverpool City Council) (16 rulings, 77.5% median award)](https://parish.technoplusit.co.uk/rro/liverpool)
+- [Tower Hamlets (London Borough of Tower Hamlets) (15 rulings, 70.0% median award)](https://parish.technoplusit.co.uk/rro/tower-hamlets)
+- [Bristol (Bristol City Council) (13 rulings, 46.8% median award)](https://parish.technoplusit.co.uk/rro/bristol)
 - [Lambeth (London Borough of Lambeth) (13 rulings, 60.0% median award)](https://parish.technoplusit.co.uk/rro/lambeth)
 - [Waltham Forest (London Borough of Waltham Forest) (10 rulings, 62.5% median award)](https://parish.technoplusit.co.uk/rro/waltham-forest)
-- [Camden (London Borough of Camden) (9 rulings, 65.0% median award)](https://parish.technoplusit.co.uk/rro/camden)
+- [Camden (London Borough of Camden) (9 rulings, 62.5% median award)](https://parish.technoplusit.co.uk/rro/camden)
 - [Ealing (London Borough of Ealing) (9 rulings, 60.0% median award)](https://parish.technoplusit.co.uk/rro/ealing)
 - [Hammersmith & Fulham (London Borough of Hammersmith and Fulham) (9 rulings, 60.0% median award)](https://parish.technoplusit.co.uk/rro/hammersmith-and-fulham)
-- [Haringey (London Borough of Haringey) (9 rulings, 80.0% median award)](https://parish.technoplusit.co.uk/rro/haringey)
+- [Haringey (London Borough of Haringey) (9 rulings, 77.5% median award)](https://parish.technoplusit.co.uk/rro/haringey)
 - [Greenwich (Royal Borough of Greenwich) (8 rulings, 62.5% median award)](https://parish.technoplusit.co.uk/rro/greenwich)
-- [Islington (London Borough of Islington) (7 rulings, 70.0% median award)](https://parish.technoplusit.co.uk/rro/islington)
+- [Islington (London Borough of Islington) (7 rulings, 65.0% median award)](https://parish.technoplusit.co.uk/rro/islington)
 - [Lewisham (London Borough of Lewisham) (7 rulings, 60.0% median award)](https://parish.technoplusit.co.uk/rro/lewisham)
 - [Newham (London Borough of Newham) (7 rulings, 50.0% median award)](https://parish.technoplusit.co.uk/rro/newham)
 - [Nottingham (Nottingham City Council (Gedling)) (7 rulings, 88.5% median award)](https://parish.technoplusit.co.uk/rro/nottingham)
 - [Oxford (Oxford City Council) (7 rulings, 50.0% median award)](https://parish.technoplusit.co.uk/rro/oxford)
-- [Portsmouth (Southsea) (Portsmouth City Council) (7 rulings, 80.0% median award)](https://parish.technoplusit.co.uk/rro/portsmouth)
+- [Portsmouth (Southsea) (Portsmouth City Council) (7 rulings, 52.8% median award)](https://parish.technoplusit.co.uk/rro/portsmouth)
 - [Southwark (London Borough of Southwark) (7 rulings, 60.0% median award)](https://parish.technoplusit.co.uk/rro/southwark)
-- [Birmingham (Birmingham City Council) (6 rulings, 52.5% median award)](https://parish.technoplusit.co.uk/rro/birmingham)
+- [Birmingham (Birmingham City Council) (6 rulings, 50.0% median award)](https://parish.technoplusit.co.uk/rro/birmingham)
 - [Hackney (London Borough of Hackney) (6 rulings, 60.0% median award)](https://parish.technoplusit.co.uk/rro/hackney)
-- [Hounslow (London Borough of Hounslow) (6 rulings, 63.9% median award)](https://parish.technoplusit.co.uk/rro/hounslow)
+- [Hounslow (London Borough of Hounslow) (6 rulings, 60.0% median award)](https://parish.technoplusit.co.uk/rro/hounslow)
 - [Newcastle upon Tyne (Newcastle City Council) (6 rulings, 0.0% median award)](https://parish.technoplusit.co.uk/rro/newcastle)
 - [Barnet (London Borough of Barnet) (5 rulings, 60.0% median award)](https://parish.technoplusit.co.uk/rro/barnet)
 - [Manchester (Manchester City Council) (5 rulings, 25.0% median award)](https://parish.technoplusit.co.uk/rro/manchester)
 - [Redbridge (Ilford) (London Borough of Redbridge) (5 rulings, 42.5% median award)](https://parish.technoplusit.co.uk/rro/redbridge)
 - [Westminster (City of Westminster) (5 rulings, 75.0% median award)](https://parish.technoplusit.co.uk/rro/westminster)
 - [Westmorland & Furness (Kendal) (Westmorland and Furness Council) (4 rulings, 60.2% median award)](https://parish.technoplusit.co.uk/rro/south-lakeland)
-- [Southend-on-Sea (Southend-on-Sea City Council) (4 rulings, 34.9% median award)](https://parish.technoplusit.co.uk/rro/southend-on-sea)
+- [Southend-on-Sea (Southend-on-Sea City Council) (4 rulings, 27.5% median award)](https://parish.technoplusit.co.uk/rro/southend-on-sea)
 - [Cambridge (Cambridge City Council) (3 rulings, 35.0% median award)](https://parish.technoplusit.co.uk/rro/cambridge)
 - [Norwich (Norwich City Council) (3 rulings, 90.0% median award)](https://parish.technoplusit.co.uk/rro/norwich)
 - [Barking & Dagenham (London Borough of Barking and Dagenham) (2 rulings, 100.0% median award)](https://parish.technoplusit.co.uk/rro/barking-and-dagenham)
@@ -71,7 +71,7 @@
 - [Barnsley (Barnsley Metropolitan Borough Council) (1 rulings, 0.0% median award)](https://parish.technoplusit.co.uk/rro/barnsley)
 - [Basildon (Basildon Borough Council) (1 rulings, 0.0% median award)](https://parish.technoplusit.co.uk/rro/basildon)
 - [Blackpool (Blackpool Council) (1 rulings, 98.1% median award)](https://parish.technoplusit.co.uk/rro/blackpool)
-- [Bracknell Forest (Bracknell Forest Council) (1 rulings, 40.0% median award)](https://parish.technoplusit.co.uk/rro/bracknell-forest)
+- [Bracknell Forest (Bracknell Forest Council) (1 rulings, 0.0% median award)](https://parish.technoplusit.co.uk/rro/bracknell-forest)
 - [Brent (London Borough of Brent) (1 rulings, 0.0% median award)](https://parish.technoplusit.co.uk/rro/brent)
 - [Broxbourne (Waltham Cross) (Borough of Broxbourne) (1 rulings, 0.0% median award)](https://parish.technoplusit.co.uk/rro/broxbourne)
 - [Derbyshire Dales (Derbyshire Dales District Council) (1 rulings, 0.0% median award)](https://parish.technoplusit.co.uk/rro/derbyshire-dales)
@@ -105,6 +105,6 @@
 - [York (City of York Council) (1 rulings, 75.0% median award)](https://parish.technoplusit.co.uk/rro/york)
 - [Unlicensed HMO (Housing Act 2004 s.72) (159 rulings, 60.0% median award)](https://parish.technoplusit.co.uk/rro/unlicensed-hmo-s72)
 - [Selective Licensing (Housing Act 2004 s.95) (76 rulings, 60.0% median award)](https://parish.technoplusit.co.uk/rro/selective-licensing-s95)
-- [Unlawful Eviction & Harassment (Protection from Eviction Act 1977 s.1) (38 rulings, 56.8% median award)](https://parish.technoplusit.co.uk/rro/unlawful-eviction)
+- [Unlawful Eviction & Harassment (Protection from Eviction Act 1977 s.1) (38 rulings, 60.0% median award)](https://parish.technoplusit.co.uk/rro/unlawful-eviction)
 - [Improvement Notice & Civil Penalty (Housing Act 2004 s.30) (8 rulings, 75.0% median award)](https://parish.technoplusit.co.uk/rro/civil-penalty-improvement-notice)
 - [Renters' Rights Act 2026 (24-Month RRO Cap & Director Liability) (281 rulings, 60.0% median award)](https://parish.technoplusit.co.uk/rro/renters-rights-act-24-month-rro)

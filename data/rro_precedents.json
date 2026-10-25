@@ -8,11 +8,15 @@
     "claimed_gbp": 21000.0,
     "awarded_gbp": 8400.0,
     "award_pct_of_rent": 40.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
       "financial_hardship",
-      "delayed_council_application"
+      "delayed_council_application",
+      "good_condition"
     ],
     "judge_summary": "The Tribunal makes a Rent repayment order in the sum of £8,400 (being 40% of the rent paid by the applicants for the period 17 September 2023-16 September 2024, rounded up by the Tribunal).",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6accb487f1ba855cc196aa96/Flat_9_Oxford_Court__Queens_Drive__Ealing__W3_0HH._Rent_Repayment_Order_.pdf",
@@ -25,9 +29,12 @@
     "region": "London",
     "decision_date": "2026-10-12",
     "offence_type": "Unlicensed HMO (s.72)",
-    "claimed_gbp": null,
-    "awarded_gbp": 0.0,
-    "award_pct_of_rent": 0.0,
+    "claimed_gbp": 375.0,
+    "awarded_gbp": 2950.0,
+    "award_pct_of_rent": null,
+    "award_source": "inferred",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -36,7 +43,8 @@
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "deposit_unprotected"
     ],
     "judge_summary": "Decision : 12th October 2026 DECISION 1.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6acc85da71dbe79328fd42c1/23_Evelyn_Ave_NW9_0JF_-_RRO_-_decn_-_121026_-_final.pdf",
@@ -52,6 +60,9 @@
     "claimed_gbp": 8604.0,
     "awarded_gbp": 4302.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -60,7 +71,8 @@
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "tenant_conduct"
     ],
     "judge_summary": "The Tribunal makes a rent repayment order against the Respondent to the Applicant in the sum of £4,302, to be paid within 28 days.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6ac765deec9d3aba1e013a3b/26.10.08_-_Decision.pdf",
@@ -76,6 +88,9 @@
     "claimed_gbp": 7517.47,
     "awarded_gbp": 2115.33,
     "award_pct_of_rent": 28.1,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -84,9 +99,11 @@
       "delayed_council_application",
       "tenant_conduct",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "professional_landlord_aggravation"
     ],
-    "judge_summary": "The Tribunal orders Ms Kaman Dianna Ng to repay to Mr Petros Nanis and Mrs Amina Ibrahim Pangani rent in the sum of £2,115.",
+    "judge_summary": "The Tribunal orders [Individual Party] to repay to [Individual Party] and [Individual Party] rent in the sum of £2,115.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6ac4dafd35adbc27761df91f/BIR_00CN_HSH_2025_0003_Camden_house.pdf",
     "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/apartment-311-camden-house-80-pope-street-birmingham-b1-3bh-bir-slash-00cn-slash-hsh-slash-2025-slash-0003",
     "quarantine_verdict": "CLEAN"
@@ -100,14 +117,19 @@
     "claimed_gbp": 16200.0,
     "awarded_gbp": 3304.78,
     "award_pct_of_rent": 20.4,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "good_condition",
+      "professional_landlord_aggravation"
     ],
-    "judge_summary": "The Tribunal Orders the Respondent, David Hawkins, to repay to Bristol City Council the sum of £3,304.",
+    "judge_summary": "The Tribunal Orders the Respondent, [Individual Respondent], to repay to Bristol City Council the sum of £3,304.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6ab38c64fceb6fb3a650103e/87_Salcombe_Road_Bristol_Decision.pdf",
     "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/87-salcombe-road-knowle-bristol-bs4-1aa-hav-slash-00hb-slash-hsb-slash-2026-slash-0002-hav-slash-00hb-slash-hmc-slash-2026-slash-0003",
     "quarantine_verdict": "CLEAN"
@@ -121,8 +143,12 @@
     "claimed_gbp": 12000.0,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
-      "utilities_deducted"
+      "utilities_deducted",
+      "good_condition"
     ],
     "judge_summary": "Decision : 7 September 2026 DECISION © CROWN COPYRIGHT 2026 \fSummary of the Decision 1.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6aaa95282f29b38884818593/2026_September_7_Decision__3_.pdf",
@@ -138,6 +164,9 @@
     "claimed_gbp": 13816.36,
     "awarded_gbp": 9671.45,
     "award_pct_of_rent": 70.0,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
@@ -145,7 +174,9 @@
       "delayed_council_application",
       "tenant_conduct",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition"
     ],
     "judge_summary": "Decision : 7 September 2026 DECISION © CROWN COPYRIGHT 2026 \fSummary of the Decision 1.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6aaa70fef1f8d2a39605f89b/2026_September_7_Decision.pdf",
@@ -161,6 +192,9 @@
     "claimed_gbp": 6900.0,
     "awarded_gbp": 3795.0,
     "award_pct_of_rent": 55.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -186,6 +220,9 @@
     "claimed_gbp": 1776.78,
     "awarded_gbp": 888.39,
     "award_pct_of_rent": 50.0,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -195,7 +232,8 @@
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "Decision : 7 September 2026 _____________________________________________________ DECISION _____________________________________________________ Crown Copyright © 2026 \fDECISIONS 1.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a9d3da15a0c25165ae46993/BIR_00CN_HMK_2025_0019.pdf",
@@ -211,6 +249,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "director_liability"
     ],
@@ -228,6 +269,9 @@
     "claimed_gbp": 5610.29,
     "awarded_gbp": 2805.0,
     "award_pct_of_rent": 50.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -236,7 +280,8 @@
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "Decision : 2 October 2026 DECISION © CROWN COPYRIGHT 2013 \fOrders (1) The Tribunal makes rent repayment orders against the Respondent to the Applicant in the sum of £2,805, to be paid within 28 days.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6abf8a9060db3ef9976c172c/26.10.02_-_Decision.pdf",
@@ -252,11 +297,15 @@
     "claimed_gbp": 850.0,
     "awarded_gbp": 784.8,
     "award_pct_of_rent": 92.3,
+    "award_source": "direct",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
       "delayed_council_application",
-      "universal_credit_deducted"
+      "universal_credit_deducted",
+      "good_condition"
     ],
     "judge_summary": "decision 21 September 2026 DECISION © CROWN COPYRIGHT \fThe tribunal’s decisions (i) The application for a rent repayment order is dismissed.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6ab11bd73f8e4e96a6a66abc/260921_Decision_PM.pdf",
@@ -272,6 +321,9 @@
     "claimed_gbp": 3964.0,
     "awarded_gbp": 991.0,
     "award_pct_of_rent": 25.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -297,6 +349,9 @@
     "claimed_gbp": 23098.11,
     "awarded_gbp": 13887.27,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -305,7 +360,8 @@
       "delayed_council_application",
       "tenant_conduct",
       "universal_credit_deducted",
-      "professional_landlord_aggravation"
+      "professional_landlord_aggravation",
+      "fire_safety_breach"
     ],
     "judge_summary": "The tribunal determines to make a Rent Repayment Order to the Applicants of £13,887.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6aa3d10992e72b8ac437f169/260910_Decision_PM.pdf",
@@ -321,8 +377,13 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "corporate",
     "mitigation_factors": [
-      "utilities_deducted"
+      "utilities_deducted",
+      "good_condition",
+      "tenant_conduct"
     ],
     "judge_summary": "decision : 25 August 2026 JURISDICTION DECISION a.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a8ec4b99a177a1decf979fa/Final_128_D_George_E18_1AD_jurisdiction.pdf",
@@ -338,6 +399,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "financial_hardship",
       "universal_credit_deducted"
@@ -355,7 +419,10 @@
     "offence_type": "Unlicensed HMO (s.72)",
     "claimed_gbp": 1750.0,
     "awarded_gbp": 1750.0,
-    "award_pct_of_rent": null,
+    "award_pct_of_rent": 100.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -376,11 +443,16 @@
     "claimed_gbp": 42316.0,
     "awarded_gbp": 29621.2,
     "award_pct_of_rent": 70.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition"
     ],
     "judge_summary": "Having taken into account all the factors set out above the Tribunal determines the Rent Repayment Order in the sum of 70% of the total rent paid after deducting the Tribunal’s estimate of £550 per year per resident as representing the cost to the landlord of paying the council tax, water and internet connection bills.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a8c476aac563f363ba3c41d/flat_12_Trevelyan_House___Morpeth_Street_E2_0PY_RRO_decision_final.pdf",
@@ -393,9 +465,12 @@
     "region": "London",
     "decision_date": "2026-08-19",
     "offence_type": "Unlicensed HMO (s.72)",
-    "claimed_gbp": null,
+    "claimed_gbp": 10450.0,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "delayed_council_application",
       "director_liability"
@@ -414,6 +489,9 @@
     "claimed_gbp": 1510.0,
     "awarded_gbp": 906.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -423,7 +501,8 @@
       "tenant_conduct",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "Taking all of these matters into account the tribunal determines to award the Applicant 60% of the maximum RRO payable.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a841ec13bd75b81e2329adb/RRO_decision_380_brighton_road.pdf",
@@ -439,6 +518,9 @@
     "claimed_gbp": 53785.07,
     "awarded_gbp": 29581.79,
     "award_pct_of_rent": 55.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -446,7 +528,8 @@
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "Taking all of these matters into account we consider that an award of 55% of the rent for the relevant periods is appropriate .",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a8439b08d785493a9c89739/260804_Decision_PM.pdf",
@@ -462,6 +545,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "director_liability"
@@ -480,11 +566,15 @@
     "claimed_gbp": 1510.04,
     "awarded_gbp": 1510.04,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "DECISION © CROWN COPYRIGHT 2026 1 \fDecision The Tribunal is satisfied beyond reasonable doubt that the 2 nd Respondent committed the offence under section 95(1) of the Housing Act 2004.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a9acd53f5b35599aec19242/F2_183A_Smithdown_Road_DECISION.pdf",
@@ -500,9 +590,13 @@
     "claimed_gbp": 2245.0,
     "awarded_gbp": 2245.0,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "financial_hardship",
-      "universal_credit_deducted"
+      "universal_credit_deducted",
+      "professional_landlord_aggravation"
     ],
     "judge_summary": "the Tribunal determines to make a rent repayment order, the amount of that order must be calculated in accordance with s46(1) of the 2016 Act which requires the Tribunal to disregard the factors set out in subsection (4) of s45 of the 2016 Act but can take into account “exceptional circumstances”; 9.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a4e7949f79c9db2eb438f62/Hero_Street_Bootle_L20_2HA__60_Olivia_Street_Bootle_L20_2ET__003_.pdf",
@@ -518,8 +612,12 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
-      "letting_agent_reliance"
+      "letting_agent_reliance",
+      "good_condition"
     ],
     "judge_summary": "DECISION © CROWN COPYRIGHT 2026 1 \fDecision The application is dismissed.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a61fb56e2d191f0bc8b6d9e/ROWLANDS_GILL_15_07_26_v2.pdf",
@@ -532,13 +630,17 @@
     "region": "Midlands",
     "decision_date": "2026-08-10",
     "offence_type": "Unlawful Eviction / Harassment",
-    "claimed_gbp": null,
+    "claimed_gbp": 2995.0,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "letting_agent_reliance",
       "financial_hardship",
-      "universal_credit_deducted"
+      "universal_credit_deducted",
+      "good_condition"
     ],
     "judge_summary": "Decision : 10 August 2026 _____________________________________ DECISION _________________________________________ © CROWN COPYRIGHT 2026 \f Decision 1 The Tribunal is not satisfied beyond reasonable doubt that the Respondents are guilty of offences contrary to sections 1(3) and 1(3A) Protection from Eviction Act 1977.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a82018403b4fe14b1e7ded0/BIR_00CR_HSH_2025_0019.pdf",
@@ -554,6 +656,9 @@
     "claimed_gbp": 930.0,
     "awarded_gbp": 372.0,
     "award_pct_of_rent": 40.0,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -575,6 +680,9 @@
     "claimed_gbp": 6099.75,
     "awarded_gbp": 6099.75,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -583,7 +691,9 @@
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "first_offence"
     ],
     "judge_summary": "The Tribunal makes a rent repayment order against the Respondent for the global sum of £6,099.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69ce43885e0e8088a545b2ce/26.04.02_-_Amended_decision.pdf",
@@ -599,6 +709,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "delayed_council_application"
     ],
@@ -616,10 +729,14 @@
     "claimed_gbp": 6750.0,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "financial_hardship",
       "delayed_council_application",
-      "tenant_conduct"
+      "tenant_conduct",
+      "good_condition"
     ],
     "judge_summary": "decision : 30th July 2026 Date of amended decision 1st September 2026 AMENDED DECISION © CROWN COPYRIGHT \fWe exercise our powers under Rule 50 of the Tribunal Procedure (First-tier Tribunal) (Property Chamber) Rules 2013 correct the accidental slip at paragraphs 5 and 23 of our Decision dated 30th July 2026.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a6b45f8cceb23e867897717/260730_Decision_PM.pdf",
@@ -635,12 +752,16 @@
     "claimed_gbp": 12809.04,
     "awarded_gbp": 9606.78,
     "award_pct_of_rent": 75.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
       "financial_hardship",
       "delayed_council_application",
-      "universal_credit_deducted"
+      "universal_credit_deducted",
+      "fire_safety_breach"
     ],
     "judge_summary": "Decision 28 July 2026 DECISION © CROWN COPYRIGHT 2025 \fThe tribunal’s summary decision (1) The tribunal finds the respondent has admitted the offence of having the control and management of an unlicensed property that was required to be licensed.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a69aa7f0825cc51a6c37c6c/260728_Decision_PM.pdf",
@@ -656,6 +777,9 @@
     "claimed_gbp": 22992.0,
     "awarded_gbp": 17244.0,
     "award_pct_of_rent": 75.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -663,9 +787,12 @@
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "deposit_unprotected",
+      "tenant_conduct"
     ],
-    "judge_summary": "decision : 16 July 2026 DECISION Decision of the tribunal (1) The Respondent, Khaula Zahid, shall pay to the Applicants the sum of £17,244.",
+    "judge_summary": "decision : 16 July 2026 DECISION Decision of the tribunal (1) The Respondent, [Individual Respondent], shall pay to the Applicants the sum of £17,244.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a68c21e16bc92f51e1a425d/26.07.16_-_Decision.pdf",
     "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/93b-sydenham-road-london-se26-5ez-lon-slash-00az-slash-hmf-slash-2025-slash-0942",
     "quarantine_verdict": "CLEAN"
@@ -679,13 +806,19 @@
     "claimed_gbp": 3360.0,
     "awarded_gbp": 2322.54,
     "award_pct_of_rent": 69.1,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
       "tenant_conduct",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition",
+      "professional_landlord_aggravation"
     ],
     "judge_summary": "The Tribunal makes a rent repayment order in the sum of £2,322.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a7c91d324cc3b8ca3fd9897/2026_August_10_Decision.pdf",
@@ -701,6 +834,9 @@
     "claimed_gbp": 4920.0,
     "awarded_gbp": 4920.0,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -723,6 +859,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "letting_agent_reliance",
       "delayed_council_application",
@@ -742,6 +881,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
@@ -759,9 +901,12 @@
     "region": "Eastern",
     "decision_date": "2026-05-15",
     "offence_type": "Unlicensed HMO (s.72)",
-    "claimed_gbp": null,
+    "claimed_gbp": 9650.0,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -769,7 +914,8 @@
       "delayed_council_application",
       "tenant_conduct",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "decision : 15 May 2026 DECISION © CROWN COPYRIGHT \fDecisions of the Tribunal (1) The Tribunal does not have jurisdiction to hear the applications because the time limit requirements of section 41(2)(b) of the Housing and Planning Act 2016 have not been met.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0ee6449c0df135284ec7a9/Decision-19_05_2026_10_32.pdf",
@@ -782,9 +928,12 @@
     "region": "Eastern",
     "decision_date": "2026-05-15",
     "offence_type": "Unlicensed HMO (s.72)",
-    "claimed_gbp": null,
+    "claimed_gbp": 4800.0,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
@@ -792,7 +941,9 @@
       "delayed_council_application",
       "tenant_conduct",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition"
     ],
     "judge_summary": "decision : 15 May 2026 DECISION © CROWN COPYRIGHT \fDecisions of the Tribunal (1) The Tribunal does not have jurisdiction to hear the applications because the time limit requirements of section 41(2)(b) of the Housing and Planning Act 2016 have not been met.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0dc129b1dfdb3c06e906c8/260515_PM_Decision-18_05_2026_04_08.pdf",
@@ -808,13 +959,17 @@
     "claimed_gbp": 12900.0,
     "awarded_gbp": 2611.0,
     "award_pct_of_rent": 20.2,
+    "award_source": "direct",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "The tribunal orders the Respondent to repay to the Applicant the sum of £2,611 by way of rent repayment.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a047395ee62840dba48a1e8/50A_Eastern_Esplanade_final_order.pdf",
@@ -830,10 +985,14 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "financial_hardship",
       "delayed_council_application",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "decision : 30 June 2026 1.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a450d8d1c8bd7ce25a5e8b6/Tenetova_v_Da_Costa_-_Judgment.pdf",
@@ -846,13 +1005,17 @@
     "region": "Eastern",
     "decision_date": "2026-06-22",
     "offence_type": "Unlawful Eviction / Harassment",
-    "claimed_gbp": null,
+    "claimed_gbp": 2200.0,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "first_offence",
       "financial_hardship",
-      "universal_credit_deducted"
+      "universal_credit_deducted",
+      "good_condition"
     ],
     "judge_summary": "decision : 22 June 2026 DECISION © CROWN COPYRIGHT \fDecisions of the tribunal (1) The tribunal is not satisfied beyond reasonable doubt that the Respondent has committed the offence of harassment of the Applicants which is prohibited under section 1(3) of the Protection from Eviction Act 1977.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a3931c00bea238415c9a3be/FINAL_Decision_-_4_Howards_Wood_Drive_Gerrard_Cross_SL9_7HN.pdf",
@@ -868,6 +1031,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "financial_hardship",
       "delayed_council_application",
@@ -887,6 +1053,9 @@
     "claimed_gbp": 4877.48,
     "awarded_gbp": 2438.74,
     "award_pct_of_rent": 50.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -894,7 +1063,7 @@
       "universal_credit_deducted",
       "director_liability"
     ],
-    "judge_summary": "The application for a rent repayment order succeeds against the First Respondent, Mr Oskar Ochylski.",
+    "judge_summary": "The application for a rent repayment order succeeds against the First Respondent, [Individual Party].",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69fc5bdce71c4cdf4026b839/Decision_-_CAM-38UC-HMK-2024-0603.pdf",
     "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/14b-mallard-close-oxford-ox4-6en-cam-slash-38uc-slash-hmk-slash-2024-slash-0603",
     "quarantine_verdict": "CLEAN"
@@ -908,6 +1077,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "financial_hardship",
       "delayed_council_application",
@@ -929,6 +1101,9 @@
     "claimed_gbp": 27700.0,
     "awarded_gbp": 24805.0,
     "award_pct_of_rent": 90.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -951,15 +1126,20 @@
     "decision_date": "2026-04-15",
     "offence_type": "Unlicensed HMO (s.72)",
     "claimed_gbp": null,
-    "awarded_gbp": null,
+    "awarded_gbp": 1793.0,
     "award_pct_of_rent": 50.0,
+    "award_source": "inferred",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition"
     ],
     "judge_summary": "decision : 15 April 2026 DECISION © CROWN COPYRIGHT \fDecisions of the tribunal (1) The tribunal is satisfied beyond reasonable doubt that the Respondents were during the period 3 December 2023 to 30 June 2024 persons having control of a House in Multiple Occupation which was required to be licensed under section 61(1) of the Housing Act 2004 but which was no",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69df7f5353469bbcdf408eb2/Decision_Old_Reading_Room.pdf",
@@ -975,6 +1155,9 @@
     "claimed_gbp": 29125.0,
     "awarded_gbp": 17475.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -983,7 +1166,8 @@
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "Taking all of these matters into account the tribunal determines to award the Applicants 75% of the maximum RRO payable.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a799df07349adb729babe60/DECISION_1C_Fairlawn_Avenue__Ealing_W4_5EF_LON_00AJ_HMF_2025_0816.pdf",
@@ -996,9 +1180,12 @@
     "region": "London",
     "decision_date": "2026-06-24",
     "offence_type": "Selective Licensing (s.95)",
-    "claimed_gbp": null,
-    "awarded_gbp": null,
+    "claimed_gbp": 15600.0,
+    "awarded_gbp": 12480.0,
     "award_pct_of_rent": 80.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -1021,13 +1208,17 @@
     "claimed_gbp": 9600.0,
     "awarded_gbp": 4800.0,
     "award_pct_of_rent": 50.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
       "letting_agent_reliance",
       "financial_hardship",
       "delayed_council_application",
-      "universal_credit_deducted"
+      "universal_credit_deducted",
+      "professional_landlord_aggravation"
     ],
     "judge_summary": "decision : 22nd June 2026 DECISION © CROWN COPYRIGHT \fDecisions of the tribunal (1) The tribunal determines to make Rent Repayment Orders as follows: a.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a3a5830e590e5e061c9a4c5/26.06.22_-_Decision.pdf",
@@ -1043,6 +1234,9 @@
     "claimed_gbp": 29009.68,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "delayed_council_application",
@@ -1059,9 +1253,12 @@
     "region": "London",
     "decision_date": "2026-06-20",
     "offence_type": "Selective Licensing (s.95)",
-    "claimed_gbp": null,
-    "awarded_gbp": null,
+    "claimed_gbp": 26844.0,
+    "awarded_gbp": 14764.2,
     "award_pct_of_rent": 55.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -1069,7 +1266,8 @@
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "Taking all of these matters into account we consider that an award of 55% of the rent for the relevant period is appropriate.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a3935fe00ff27f06e3efbd7/260620_Courtland_Final_Reasoned_Decision.pdf",
@@ -1082,9 +1280,12 @@
     "region": "London",
     "decision_date": "2026-06-16",
     "offence_type": "Unlicensed HMO (s.72)",
-    "claimed_gbp": null,
+    "claimed_gbp": 16200.0,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "financial_hardship",
       "delayed_council_application",
@@ -1105,9 +1306,13 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "financial_hardship",
-      "universal_credit_deducted"
+      "universal_credit_deducted",
+      "good_condition"
     ],
     "judge_summary": "DECISION Determination 1.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a76056bc5cca217fbd79ff1/260505_-_147_Strone_Road__London_E7_8ET.pdf",
@@ -1123,6 +1328,9 @@
     "claimed_gbp": 6000.0,
     "awarded_gbp": 3600.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -1130,7 +1338,8 @@
       "delayed_council_application",
       "tenant_conduct",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "decision : 08 June 2026 DECISION 1 \fThe Tribunal determines that it shall exercise its discretion to make a rent repayment order in terms that the Respondent shall pay to the Applicant the sum of £3,600 within 35 days of the date of this decision.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a26cc9e2cdcfdb7436ac0ac/Basement_Flat__4_Glazbury_Road_-_DECISION_08.06.26.pdf",
@@ -1145,7 +1354,10 @@
     "offence_type": "Unlicensed HMO (s.72)",
     "claimed_gbp": 5917.8,
     "awarded_gbp": 5917.8,
-    "award_pct_of_rent": null,
+    "award_pct_of_rent": 52.0,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -1167,11 +1379,16 @@
     "claimed_gbp": 445.0,
     "awarded_gbp": 311.5,
     "award_pct_of_rent": 70.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
       "financial_hardship",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition"
     ],
     "judge_summary": "The Tribunal makes a Rent repayment order in the sum of £3000.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a268b9fe13080622db38796/Rent_Repayment_Order__66_Settlers_Court__17_Newport_Avenue__London_E14_2_DG.pdf",
@@ -1187,6 +1404,9 @@
     "claimed_gbp": 747.0,
     "awarded_gbp": 224.0,
     "award_pct_of_rent": 30.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -1196,7 +1416,8 @@
       "tenant_conduct",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "The Tribunal makes a rent repayment order against the Respondents in the total sum of £2242.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a16e5c229bb11891b1cf1c6/6_Smyrna_Mansions_Decision_27_May_2026.pdf",
@@ -1212,6 +1433,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "director_liability"
     ],
@@ -1229,13 +1453,18 @@
     "claimed_gbp": 9865.16,
     "awarded_gbp": 7398.87,
     "award_pct_of_rent": 75.0,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition"
     ],
     "judge_summary": "Decision : 18 May 2026 DECISION © CROWN COPYRIGHT 2026 \f (1) The First Respondent shall be removed as a party to the proceedings.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a43cb1afa72f76532a4e3ec/2026-05-18_12_Howard_Street_York_YO10_4BQ.pdf",
@@ -1251,6 +1480,9 @@
     "claimed_gbp": 5950.0,
     "awarded_gbp": 5950.0,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "letting_agent_reliance"
     ],
@@ -1268,6 +1500,9 @@
     "claimed_gbp": 15000.0,
     "awarded_gbp": 1875.0,
     "award_pct_of_rent": 12.5,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -1293,6 +1528,9 @@
     "claimed_gbp": 30600.0,
     "awarded_gbp": 24480.0,
     "award_pct_of_rent": 85.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
@@ -1300,7 +1538,9 @@
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition"
     ],
     "judge_summary": "The respondent shall repay £24,480 (Twenty-Four Thousand, Four Hundred and Eighty Pounds) to the applicants by 04 June 2026.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69fd962881a251700a20b274/260507_-_RRO_Decision_118_Broomfield_Street_-_Additional_Licensing.pdf",
@@ -1316,13 +1556,17 @@
     "claimed_gbp": 983.0,
     "awarded_gbp": 466.0,
     "award_pct_of_rent": 50.0,
+    "award_source": "direct",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "A rent repayment order of £4666 shall be paid by the Respondent to the Applicants within 28 days.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69fcc87e2a6137e93226b87e/260506_155_Winchester_Road_Decision.pdf",
@@ -1338,6 +1582,9 @@
     "claimed_gbp": 21256.88,
     "awarded_gbp": 15942.66,
     "award_pct_of_rent": 75.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -1347,7 +1594,8 @@
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "The Tribunal makes a rent repayment order in favour of the Applicants against the First Respondent, in the sum of £15,942.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69fc9e1a8cc72d2f863ea5d7/Flat_3__20_Cockspur_Street__SW1Y_5BL_-_Decision.pdf",
@@ -1363,13 +1611,17 @@
     "claimed_gbp": 2300.0,
     "awarded_gbp": 855.0,
     "award_pct_of_rent": 45.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
       "first_offence",
       "financial_hardship",
       "delayed_council_application",
-      "universal_credit_deducted"
+      "universal_credit_deducted",
+      "professional_landlord_aggravation"
     ],
     "judge_summary": "The Tribunal makes a rent repayment order in favour of the Applicant in the sum of £855.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a60da790dd52549f5f96d43/2026_July_10_-_Decision.pdf",
@@ -1385,6 +1637,9 @@
     "claimed_gbp": 1440.0,
     "awarded_gbp": 432.0,
     "award_pct_of_rent": 30.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -1392,7 +1647,8 @@
       "financial_hardship",
       "delayed_council_application",
       "tenant_conduct",
-      "universal_credit_deducted"
+      "universal_credit_deducted",
+      "professional_landlord_aggravation"
     ],
     "judge_summary": "The Tribunal makes a rent repayment order in favour of the Applicant in the sum of £432.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a608d9147af652afa0c89d4/2026_July_20_-_Decision.pdf",
@@ -1408,13 +1664,18 @@
     "claimed_gbp": 19464.96,
     "awarded_gbp": 19464.96,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
       "first_offence",
       "financial_hardship",
       "delayed_council_application",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition"
     ],
     "judge_summary": "Decision : 16 March 2026 DECISION © CROWN COPYRIGHT \fDecisions of the Tribunal a.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69b80ff1fdbfc4d58fc8d002/Final_Decision__2_Whitworth_House__Falmouth_Road._SE1_6RW.pdf",
@@ -1430,13 +1691,19 @@
     "claimed_gbp": 9000.0,
     "awarded_gbp": 8100.0,
     "award_pct_of_rent": 90.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "professional_landlord_aggravation"
+      "professional_landlord_aggravation",
+      "fire_safety_breach",
+      "good_condition",
+      "deposit_unprotected"
     ],
     "judge_summary": "The Tribunal makes a rent repayment order in favour of the Applicant in the sum of £8,100 for the period 30 October 2023 to 31 October 2024.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69e88ec0ed93f72cf8163206/260416_RRO_Decision_7_Willow_Court__Eden_Grove__London_N1_8EH.pdf",
@@ -1452,6 +1719,9 @@
     "claimed_gbp": 30000.0,
     "awarded_gbp": 9000.0,
     "award_pct_of_rent": 30.0,
+    "award_source": "direct",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "financial_hardship",
       "delayed_council_application",
@@ -1472,6 +1742,9 @@
     "claimed_gbp": 990.0,
     "awarded_gbp": 671.0,
     "award_pct_of_rent": 75.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -1494,6 +1767,9 @@
     "claimed_gbp": 13795.89,
     "awarded_gbp": 8278.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -1519,13 +1795,17 @@
     "claimed_gbp": 10083.3,
     "awarded_gbp": 6049.98,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "Decision : 30th June 2026 DECISION 1.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a451aa71c8bd7ce25a5e8da/260630_RRO_Decision_-_12B_Long_Lane_RRO.pdf",
@@ -1541,13 +1821,17 @@
     "claimed_gbp": 1800.0,
     "awarded_gbp": 1440.0,
     "award_pct_of_rent": 80.0,
+    "award_source": "direct",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
       "tenant_conduct",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "decision : 25 June 2026 ORDER AND SUBSTANTIVE DECISION The Tribunal orders that: The Respondent is required to make a rent repayment order to the Applicant in the sum of £1,440.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a44e13ffa72f76532a4e4a6/2026.06.25_RRO_Decision_-_49b_Jerningham_Road_RRO_-_LON-00AZ-HMF-2025-0928.pdf",
@@ -1563,6 +1847,9 @@
     "claimed_gbp": 6400.0,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -1582,7 +1869,10 @@
     "offence_type": "Unlicensed HMO (s.72)",
     "claimed_gbp": 1564.08,
     "awarded_gbp": 1564.08,
-    "award_pct_of_rent": null,
+    "award_pct_of_rent": 25.5,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -1603,9 +1893,12 @@
     "region": "Southern",
     "decision_date": "2026-07-09",
     "offence_type": "Unlicensed HMO (s.72)",
-    "claimed_gbp": null,
+    "claimed_gbp": 7110.0,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "delayed_council_application",
@@ -1625,12 +1918,16 @@
     "claimed_gbp": 27699.7,
     "awarded_gbp": 20774.78,
     "award_pct_of_rent": 75.0,
+    "award_source": "direct",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "The Tribunal makes a Rent repayment order in the sum of £ for the rent paid by the applicant for the period 1 June 2023 to 31 May 2024.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69f1cd91c42061e837e3ac04/260429_-_Rent_Repayment_Order_39_Stevenson_Road_London_W12_0SUy_-_final_decision.pdf",
@@ -1646,13 +1943,19 @@
     "claimed_gbp": 24033.89,
     "awarded_gbp": 10763.62,
     "award_pct_of_rent": 44.8,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition",
+      "tenant_conduct"
     ],
     "judge_summary": "The Tribunal makes a Rent Repayment Order under section 43 of the Housing and Planning Act 2016 requiring the © CROWN COPYRIGHT 2026 \f Respondent to pay to the Applicants jointly the sum of £10,763.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69ea285f9ca985145673b8ed/26.04.22_-_Decision.pdf",
@@ -1668,6 +1971,9 @@
     "claimed_gbp": 3240.35,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "s44_statutory_conduct"
     ],
@@ -1685,6 +1991,9 @@
     "claimed_gbp": 3600.0,
     "awarded_gbp": 1800.0,
     "award_pct_of_rent": 50.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -1709,6 +2018,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted"
     ],
@@ -1726,13 +2038,17 @@
     "claimed_gbp": 4500.0,
     "awarded_gbp": 2700.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "Decision : 14th July 2026 DECISION 1.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a5654336d6d5c7e2845c941/DECISION_25_Bulstrode_Avenue__Hounslow_TW3_3AA-LON-00AT-HMG-2025-0626.pdf",
@@ -1748,9 +2064,13 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
-      "tenant_conduct"
+      "tenant_conduct",
+      "good_condition"
     ],
     "judge_summary": "decision 29 June 2026 DECISION © CROWN COPYRIGHT 2026 1 \fBackground 1.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a3fb259da47783d87723c06/BIR_17UF_HMK_2025_0004.pdf",
@@ -1766,12 +2086,16 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "letting_agent_reliance",
       "financial_hardship",
       "tenant_conduct",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "Decision : 26th January 2026 DECISION The application for a Rent Repayment Order is refused.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/697746e767ae94b3280137f8/Flat_301__Hive_Hse_RRO_decision_26-1-26.pdf",
@@ -1787,6 +2111,9 @@
     "claimed_gbp": 1720.84,
     "awarded_gbp": 430.0,
     "award_pct_of_rent": 25.0,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -1812,6 +2139,9 @@
     "claimed_gbp": 20900.0,
     "awarded_gbp": 8360.0,
     "award_pct_of_rent": 40.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
@@ -1819,7 +2149,8 @@
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "The Tribunal orders the Respondent to repay to the Applicants the sum of £8,360 by way of rent repayment, such repayment to be made within 28 days of the date of this decision.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a43bd4a065c5aec12a4e3d6/2026_June_30_-_Decision.pdf",
@@ -1835,13 +2166,19 @@
     "claimed_gbp": 615.0,
     "awarded_gbp": 369.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition",
+      "tenant_conduct"
     ],
     "judge_summary": "decision : 5 February 2026 DECISION © CROWN COPYRIGHT \fDecisions of the tribunal (1) The tribunal is satisfied beyond reasonable doubt that the Respondent was during the period 16 January 2023 to 16 May 2024 a person having control of a House in Multiple Occupation which was required to be licensed under section 61(1) of the Housing Act 2004 but which was no",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6985bb39cfe7ccf77efbc71d/Decision.pdf",
@@ -1857,6 +2194,9 @@
     "claimed_gbp": 1183.33,
     "awarded_gbp": 710.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -1876,15 +2216,20 @@
     "region": "London",
     "decision_date": "2026-07-01",
     "offence_type": "Unlicensed HMO (s.72)",
-    "claimed_gbp": null,
-    "awarded_gbp": null,
+    "claimed_gbp": 110.0,
+    "awarded_gbp": 3959.44,
     "award_pct_of_rent": null,
+    "award_source": "inferred",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition"
     ],
     "judge_summary": "Decision : 21st April 2026 DECISION 1.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69e78682f766dcdcd050351c/260421_-_29b_Landseer_Rd_RRO_decision.pdf",
@@ -1900,9 +2245,14 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "financial_hardship",
-      "universal_credit_deducted"
+      "universal_credit_deducted",
+      "fire_safety_breach",
+      "good_condition"
     ],
     "judge_summary": "Decision : 22 June 2026 DECISION © CROWN COPYRIGHT \fDecision The Tribunal dismisses the application and declines to order the Respondent to repay the Applicant’s application and hearing fees.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a3aa3254c7605ab56723874/Final_Decision_11_Evershot_Road.pdf",
@@ -1918,6 +2268,9 @@
     "claimed_gbp": 8190.41,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -1925,9 +2278,11 @@
       "tenant_conduct",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition"
     ],
-    "judge_summary": "Decision : 17 June 2026 DECISION © CROWN COPYRIGHT \fDecision The First Respondent (Mr Nadeem Ahmed) shall pay to the Applicants the following sums, within 28 days: £6,588 (Six Thousand Five Hundred and Eighty-Eight pounds) (rounded) to the First Applicant, Mr Deepak Kaggalipura Shanmukhanand £5,708 (Five Thousand Seven Hundred and Eight pounds) (rounded) to ",
+    "judge_summary": "Decision : 17 June 2026 DECISION © CROWN COPYRIGHT \fDecision The First Respondent ([Individual Party]) shall pay to the Applicants the following sums, within 28 days: £6,588 (Six Thousand Five Hundred and Eighty-Eight pounds) (rounded) to the First Applicant, [Individual Party] £5,708 (Five Thousand Seven Hundred and Eight pounds) (rounded) to ",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a391bb400ff27f06e3efbac/2026_June_17_decision.pdf",
     "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/rooms-1-2-3-and-4-22-brislington-hill-bristol-bs4-5bd-hav-slash-00hb-slash-hmf-slash-2025-slash-0625",
     "quarantine_verdict": "CLEAN"
@@ -1941,9 +2296,13 @@
     "claimed_gbp": 14400.0,
     "awarded_gbp": 14400.0,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "letting_agent_reliance",
-      "delayed_council_application"
+      "delayed_council_application",
+      "good_condition"
     ],
     "judge_summary": "Decision : 18 June 2026 DECISION © CROWN COPYRIGHT 1 \fDecisions of the Tribunal The Tribunal dismisses the Applicant’s application for a Rent Repayment Order.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a35401725c5199bda117873/2026_June_18_Decision.pdf",
@@ -1957,8 +2316,11 @@
     "decision_date": "2026-06-17",
     "offence_type": "Unlicensed HMO (s.72)",
     "claimed_gbp": null,
-    "awarded_gbp": null,
+    "awarded_gbp": 5592.6,
     "award_pct_of_rent": null,
+    "award_source": "inferred",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -1966,7 +2328,8 @@
       "financial_hardship",
       "delayed_council_application",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "Decision : 11 May 2026 DECISION AND REASONS 1 \f Decision of the Tribunal The Tribunal: a.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a1060125e28c5cac81cf08a/2026_May_11_St_Georges_Way_Decision.pdf",
@@ -1982,6 +2345,9 @@
     "claimed_gbp": 10200.0,
     "awarded_gbp": 231.0,
     "award_pct_of_rent": 2.3,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -1991,7 +2357,7 @@
       "universal_credit_deducted",
       "professional_landlord_aggravation"
     ],
-    "judge_summary": "Decision : 5 June 2026 DECISION © CROWN COPYRIGHT \fDecision The Respondent shall pay to the Applicant 1 (Mr Sepe) the sum of £2310 and to Applicant 2 (Ms Gomez-Martin) £2,055 within 28 days.",
+    "judge_summary": "Decision : 5 June 2026 DECISION © CROWN COPYRIGHT \fDecision The Respondent shall pay to the Applicant 1 ([Individual Party]) the sum of £2310 and to Applicant 2 ([Individual Party]-Martin) £2,055 within 28 days.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a22c2fa56e988a798b386f3/2026_June_05_Decision.pdf",
     "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/44-station-avenue-bristol-bs16-2du-hav-slash-00hb-slash-hmf-slash-2025-slash-0626",
     "quarantine_verdict": "CLEAN"
@@ -2005,6 +2371,9 @@
     "claimed_gbp": 8400.0,
     "awarded_gbp": 3780.0,
     "award_pct_of_rent": 45.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -2028,11 +2397,18 @@
     "claimed_gbp": 3800.0,
     "awarded_gbp": 2468.25,
     "award_pct_of_rent": 65.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
-      "universal_credit_deducted"
+      "universal_credit_deducted",
+      "fire_safety_breach",
+      "good_condition",
+      "tenant_conduct",
+      "professional_landlord_aggravation"
     ],
     "judge_summary": "The Tribunal makes a rent repayment order in the sum of £2,468.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a1024f85e28c5cac81cf04f/2026_April_28_Albert_decision.pdf",
@@ -2045,14 +2421,18 @@
     "region": "Southern",
     "decision_date": "2026-06-17",
     "offence_type": "Unlawful Eviction / Harassment",
-    "claimed_gbp": null,
+    "claimed_gbp": 3800.0,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "first_offence",
       "financial_hardship",
-      "universal_credit_deducted"
+      "universal_credit_deducted",
+      "good_condition"
     ],
     "judge_summary": "Decision : 21 May 2026 Decision © CROWN COPYRIGHT \fSummary of Decision The Tribunal is not satisfied that the Respondent Landlord has committed an offence under Chapter 4, paragraph 40 (3) of the Housing and Planning Act 2016.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0f12472e20b377604ec7d9/2026_May_21_decision.pdf",
@@ -2067,7 +2447,10 @@
     "offence_type": "Unlicensed HMO (s.72)",
     "claimed_gbp": null,
     "awarded_gbp": null,
-    "award_pct_of_rent": 60.0,
+    "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -2090,13 +2473,18 @@
     "region": "Northern",
     "decision_date": "2026-05-19",
     "offence_type": "Selective Licensing (s.95)",
-    "claimed_gbp": null,
+    "claimed_gbp": 7800.0,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "letting_agent_reliance",
       "financial_hardship",
-      "universal_credit_deducted"
+      "universal_credit_deducted",
+      "fire_safety_breach",
+      "good_condition"
     ],
     "judge_summary": "Decision : 29 January 2026 DECISION CROWN COPYRIGHT 2026 1 \fDECISION The Application is dismissed.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0af6f6fcae986635db90b6/Mill_brow_house_decision.pdf",
@@ -2109,15 +2497,19 @@
     "region": "Northern",
     "decision_date": "2026-05-13",
     "offence_type": "Unlicensed HMO (s.72)",
-    "claimed_gbp": null,
+    "claimed_gbp": 10740.0,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "Decision : 29 January 2026 ___________________________________________________ DECISION ___________________________________________________ The Tribunal decline to grant the application.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/699344e2ceeaa48d377f6c13/29_Jan_26_Decision_RRO_151_Sidney_Grove_Newcastle__004_.pdf",
@@ -2133,12 +2525,16 @@
     "claimed_gbp": 7734.63,
     "awarded_gbp": 5800.97,
     "award_pct_of_rent": 75.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "letting_agent_reliance",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "Decision : 3rd February 2026 DECISION 1.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6996fbf8047739fe61889e38/3.2.26_MAN.00BY.HMG.2024.0606_-_C101_Parliament_Square_8_Crump_Street_L1_0DQ_-_Decision_1_.pdf",
@@ -2154,10 +2550,14 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
-    "judge_summary": "FIRST-TIER TRIBUNAL PROPERTY CHAMBER (RESIDENTIAL PROPERTY) Case reference : MAN/30UH/HMF/2024/0045 Property : 69 Scotforth Road, Lancaster, LA1 4SD Applicants : 1. Beth Hitchen 2. Tamara Oakley Holton 3. Codie Semenytsh 4. Daniel Bentham 5. Isabella Benton 6. Leila Tillet 7. Ben Branton Representative : Ms. Tamara Oakley Holton Respondents : 1. F",
+    "judge_summary": "FIRST-TIER TRIBUNAL PROPERTY CHAMBER (RESIDENTIAL PROPERTY) Case reference : MAN/30UH/HMF/2024/0045 Property : 69 Scotforth Road, Lancaster, LA1 4SD Applicants : 1. Beth Hitchen 2. Tamara Oakley Holton 3. Codie Semenytsh 4. Daniel Bentham 5. Isabella Benton 6. Leila Tillet 7. Ben Branton Representative : [Individual Party] Respondents : 1. F",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69b2b6d5efd187add14e007d/69_Scotforth_Road_Lancaster_LA1_4SD.pdf",
     "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/69-scotforth-road-lancaster-la1-4sd-man-slash-30uh-slash-hmf-slash-2024-slash-0045",
     "quarantine_verdict": "CLEAN"
@@ -2168,9 +2568,12 @@
     "region": "Northern",
     "decision_date": "2026-05-13",
     "offence_type": "Selective Licensing (s.95)",
-    "claimed_gbp": null,
-    "awarded_gbp": null,
+    "claimed_gbp": 395.0,
+    "awarded_gbp": 1284.39,
     "award_pct_of_rent": null,
+    "award_source": "inferred",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
@@ -2194,10 +2597,14 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
-      "financial_hardship"
+      "financial_hardship",
+      "fire_safety_breach"
     ],
     "judge_summary": "Decision : 11 February 2026 ORDER 1.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/698efb5843eb912f2e15b3a7/Bento_122_Henry_Street_decision.pdf",
@@ -2211,8 +2618,11 @@
     "decision_date": "2026-05-13",
     "offence_type": "Selective Licensing (s.95)",
     "claimed_gbp": null,
-    "awarded_gbp": null,
+    "awarded_gbp": 179.4,
     "award_pct_of_rent": null,
+    "award_source": "inferred",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -2233,14 +2643,18 @@
     "decision_date": "2026-05-11",
     "offence_type": "Unlawful Eviction / Harassment",
     "claimed_gbp": null,
-    "awarded_gbp": null,
+    "awarded_gbp": 1728.52,
     "award_pct_of_rent": 35.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "Taking all of these matters into account we consider that an award of 35% of the rent for the relevant period is appropriate.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69ca39b04a06660f085443cb/Ermine_Way_decision__002_.pdf",
@@ -2256,6 +2670,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "first_offence",
@@ -2277,12 +2694,16 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "letting_agent_reliance",
       "financial_hardship",
       "delayed_council_application",
       "tenant_conduct",
-      "universal_credit_deducted"
+      "universal_credit_deducted",
+      "good_condition"
     ],
     "judge_summary": "Decision : 10 March 2026 _______________________________________________ DECISION ____________________________________ © CROWN COPYRIGHT 2026 \fDecision 1.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69ca81f794c191d28596ed2d/Decision_-_26_Vinery_PlaceJ_Richmond_Hill_Leeds_LS9_9IZ_Final16.3.26.pdf",
@@ -2298,6 +2719,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "delayed_council_application",
       "director_liability"
@@ -2316,6 +2740,9 @@
     "claimed_gbp": 942.21,
     "awarded_gbp": 423.99,
     "award_pct_of_rent": 45.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -2333,14 +2760,19 @@
     "region": "London",
     "decision_date": "2026-04-30",
     "offence_type": "Selective Licensing (s.95)",
-    "claimed_gbp": null,
-    "awarded_gbp": null,
-    "award_pct_of_rent": null,
+    "claimed_gbp": 15550.0,
+    "awarded_gbp": 12555.0,
+    "award_pct_of_rent": 80.7,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition"
     ],
     "judge_summary": "The Tribunal makes a Rent Repayment Orders under section 43 of the Housing and Planning Act 2016 requiring the Respondent to pay the sum of £12,555 to the Applicant.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69cbfd3b024cdf09254f3fc6/260327_-_4a_Fairfax_Mews.pdf",
@@ -2354,15 +2786,20 @@
     "decision_date": "2026-04-28",
     "offence_type": "Selective Licensing (s.95)",
     "claimed_gbp": null,
-    "awarded_gbp": null,
+    "awarded_gbp": 1572.79,
     "award_pct_of_rent": null,
+    "award_source": "inferred",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition"
     ],
     "judge_summary": "Decision : 4 March 2026 Date of Issue : 19 March 2026 _____________________________________ DECISION _________________________________________ \f © CROWN COPYRIGHT 2024 Introduction 1 This is a decision on an application for a rent repayment order under section 41 of the Housing and Planning Act 2016 (‘the 2016 Act’).",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69bc103b27f2139508f73d0b/BIR_37UH_HMK_2025_0018_Ilkeston_rd.pdf",
@@ -2378,6 +2815,9 @@
     "claimed_gbp": 847.0,
     "awarded_gbp": 750.0,
     "award_pct_of_rent": 88.5,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -2403,6 +2843,9 @@
     "claimed_gbp": 6582.16,
     "awarded_gbp": 6582.16,
     "award_pct_of_rent": 100.0,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
@@ -2422,9 +2865,12 @@
     "region": "London",
     "decision_date": "2026-04-16",
     "offence_type": "Unlicensed HMO (s.72)",
-    "claimed_gbp": null,
-    "awarded_gbp": null,
+    "claimed_gbp": 4840.0,
+    "awarded_gbp": 3996.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "inferred",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -2432,7 +2878,8 @@
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "The tribunal orders the Respondent to repay to the Applicants the following sums by way of rent repayment: • £4,356.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69c4f4c2cdfd19de13d0f65b/FTT_-_12_Padstow_House__Three_Colt_Street__London_E14_8AH_-_Rent_Repayment_Order_decision__24.03.26_.pdf",
@@ -2447,7 +2894,10 @@
     "offence_type": "Unlawful Eviction / Harassment",
     "claimed_gbp": 28800.0,
     "awarded_gbp": 28800.0,
-    "award_pct_of_rent": null,
+    "award_pct_of_rent": 50.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -2470,6 +2920,9 @@
     "claimed_gbp": 26318.7,
     "awarded_gbp": 17101.15,
     "award_pct_of_rent": 65.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -2478,7 +2931,8 @@
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "The Tribunal makes a rent repayment order against the First and Second Respondents, who are therefore jointly and severally liable to pay the global sum of £17,101.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69c0fe46b920af63be1c75e6/FINAL_DETERMINATION_for_LON-00AP-HMF-2025-0798___162A_Carlingford_Rd_.pdf",
@@ -2494,12 +2948,16 @@
     "claimed_gbp": 16200.0,
     "awarded_gbp": 4050.0,
     "award_pct_of_rent": 25.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "deposit_unprotected"
     ],
     "judge_summary": "A rent repayment order of £4,050 shall be paid by the Respondent to the Applicants.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69bd29291263ce46c3690c08/101_Hawthorn_decision.pdf",
@@ -2514,7 +2972,10 @@
     "offence_type": "Unlawful Eviction / Harassment",
     "claimed_gbp": 23231.9,
     "awarded_gbp": 23231.9,
-    "award_pct_of_rent": null,
+    "award_pct_of_rent": 67.4,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -2523,7 +2984,8 @@
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "Decision : 18th March 2026 DECISION (1) The First Respondent shall pay Rent Repayment Orders: (a) To the First Applicant in the sum of £8,369.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69bc03e84c478213a823ce56/260318_Decision_PM.pdf",
@@ -2536,9 +2998,12 @@
     "region": "London",
     "decision_date": "2026-04-13",
     "offence_type": "Unlicensed HMO (s.72)",
-    "claimed_gbp": null,
+    "claimed_gbp": 10303.22,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -2546,7 +3011,8 @@
       "tenant_conduct",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "The Tribunal makes a Rent Repayment Order in favour of the Applicants as follows: i.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69b7df17b84f01b2be53a260/Flat_6_Ledbury__Portobello_Court__W11_2DH_RRO_Decision_15.01.2026.pdf",
@@ -2562,12 +3028,17 @@
     "claimed_gbp": 1596.0,
     "awarded_gbp": 798.0,
     "award_pct_of_rent": 50.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
       "financial_hardship",
       "delayed_council_application",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition"
     ],
     "judge_summary": "The Tribunal makes a Rent repayment order in the sum of £3000.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69b7c779fdbfc4d58fc8cf8b/260306_-_18_Millender_Walk_Rent_Repayment_Order_First_draft.pdf",
@@ -2580,9 +3051,12 @@
     "region": "London",
     "decision_date": "2026-04-13",
     "offence_type": "Unlicensed HMO (s.72)",
-    "claimed_gbp": null,
+    "claimed_gbp": 1140.0,
     "awarded_gbp": null,
-    "award_pct_of_rent": 80.0,
+    "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -2606,6 +3080,9 @@
     "claimed_gbp": 31436.23,
     "awarded_gbp": 31436.23,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -2613,7 +3090,8 @@
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "Decision : 6 March 2026 DECISION (1) The Tribunal makes Rent Repayment Orders under section 43 of the Housing and Planning Act 2016 requiring the Respondent to pay the sums set out below © CROWN COPYRIGHT 2026 \f (a) to the First Applicant the sum of £6,442.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69b3ec88fdbfc4d58fc8cf19/260306_-__5_Paris_House_Decision.pdf",
@@ -2629,10 +3107,15 @@
     "claimed_gbp": 3397.3,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "delayed_council_application",
-      "director_liability"
+      "director_liability",
+      "good_condition",
+      "tenant_conduct"
     ],
     "judge_summary": "Decision 12 March 2026 DECISION © CROWN COPYRIGHT 2025 \fThe tribunal’s summary decision (i) The tribunal finds the applicants have failed to prove his claim for a rent repayment order.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69b3d02397f6fef21f687b74/260312_-_6A_Sylvan_Avenue_-_Decision.pdf",
@@ -2648,8 +3131,11 @@
     "claimed_gbp": 22650.0,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "corporate",
     "mitigation_factors": [
-      "s44_statutory_conduct"
+      "fire_safety_breach"
     ],
     "judge_summary": "Decision 6 March 2026 DECISION © CROWN COPYRIGHT 2025 \fThe tribunal’s summary decision (i) The tribunal finds the applicant has failed to prove her claim for a rent repayment order and therefore, refuses the application.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69b0219e58d4ef5adaf0e3da/260306_-_Colonial_Building_-_Decision.pdf",
@@ -2665,13 +3151,17 @@
     "claimed_gbp": 6060.0,
     "awarded_gbp": 3939.0,
     "award_pct_of_rent": 65.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
       "tenant_conduct",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "The Tribunal makes a Rent Repayment Order in favour of the Applicant in the sum of £3,939.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69c40c55cdfd19de13d0f632/31_Hebron_Road_Bedminster_Bristol_BS3_3AD_24.03.2026-25_03_2026_11_28.pdf",
@@ -2687,6 +3177,9 @@
     "claimed_gbp": 16500.0,
     "awarded_gbp": 9900.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -2695,7 +3188,8 @@
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "tenant_conduct"
     ],
     "judge_summary": "The Tribunal orders the Respondent to repay to the Applicants the sum of £9,900.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69b00052bde9c3f213c89a75/LON_00BE_HMG_2025_0633_-_Flat_727_Alaska_Building_-_RRO_Decision_FINAL.pdf",
@@ -2708,13 +3202,17 @@
     "region": "London",
     "decision_date": "2026-03-10",
     "offence_type": "Unlicensed HMO (s.72)",
-    "claimed_gbp": null,
+    "claimed_gbp": 22935.0,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "letting_agent_reliance",
       "delayed_council_application",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "decision 21 January 2026 DECISION © CROWN COPYRIGHT \fThe tribunal’s decision (1) The application for a rent repayment order is refused.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69723d61d8adeaf26604054e/12_Doric_House.docx_-decision.pdf",
@@ -2728,8 +3226,11 @@
     "decision_date": "2026-03-10",
     "offence_type": "Unlicensed HMO (s.72)",
     "claimed_gbp": null,
-    "awarded_gbp": null,
+    "awarded_gbp": 1710.0,
     "award_pct_of_rent": null,
+    "award_source": "inferred",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -2738,9 +3239,10 @@
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
-    "judge_summary": "Decision : 23 February 2026 DECISION © CROWN COPYRIGHT 2013 \fOrders (1) The Tribunal makes rent repayment orders against the First Respondent to each of the Applicants in the following sums, to be paid within 28 days: Ms Mravljak: £2,160 Mr Banda: £1,710 (2) The Tribunal orders under Tribunal Procedure (First-tier Tribunal)(Property Chamber) Rules 2013, rule",
+    "judge_summary": "Decision : 23 February 2026 DECISION © CROWN COPYRIGHT 2013 \fOrders (1) The Tribunal makes rent repayment orders against the First Respondent to each of the Applicants in the following sums, to be paid within 28 days: [Individual Party]: £2,160 [Individual Party]: £1,710 (2) The Tribunal orders under Tribunal Procedure (First-tier Tribunal)(Property Chamber) Rules 2013, rule",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/699c86e131713b50fd49c07d/260223_Top_Floor_Flat__82_Hubert_Grove_RRO_Decision.pdf",
     "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/top-floor-flat-82-hubert-grove-london-sw9-9pd-lon-slash-00ay-slash-hmf-slash-2025-slash-0667",
     "quarantine_verdict": "CLEAN"
@@ -2751,9 +3253,12 @@
     "region": "London",
     "decision_date": "2026-03-10",
     "offence_type": "Unlicensed HMO (s.72)",
-    "claimed_gbp": null,
-    "awarded_gbp": null,
-    "award_pct_of_rent": null,
+    "claimed_gbp": 7868.34,
+    "awarded_gbp": 1000.0,
+    "award_pct_of_rent": 12.7,
+    "award_source": "inferred",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -2761,7 +3266,8 @@
       "financial_hardship",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "deposit_unprotected"
     ],
     "judge_summary": "Decision : slip rule on 23rd February 2026) PARTIAL DECISION 1.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/699d7c273e672177d0bc7553/122_Widdenham_Road_N7_9SQ_-_RRO_-_decn_-_110226_-_final_-_reissued_230226.pdf",
@@ -2777,6 +3283,9 @@
     "claimed_gbp": 19445.01,
     "awarded_gbp": 9722.51,
     "award_pct_of_rent": 50.0,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "letting_agent_reliance",
       "first_offence",
@@ -2785,7 +3294,9 @@
       "tenant_conduct",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition"
     ],
     "judge_summary": "decision : 16 February 2026 DECISION 1 \f The Tribunal determines that it shall exercise its discretion to make a rent repayment order in terms that the Respondent shall pay to the Applicants the sum of £9,722.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69930a0343eb912f2e15b499/Upper_Floor_Flat_1_Burnley_Road_-_DECISION_16.02.26.pdf",
@@ -2801,13 +3312,17 @@
     "claimed_gbp": 875.56,
     "awarded_gbp": 788.0,
     "award_pct_of_rent": 90.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "Taking all of these matters into account we consider that an award of 90% of the rent for the relevant period is appropriate.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/698b0b206c8ef8db1fcfd837/Leaside_Ave_decision.pdf",
@@ -2823,6 +3338,9 @@
     "claimed_gbp": 870.0,
     "awarded_gbp": 522.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -2847,6 +3365,9 @@
     "claimed_gbp": 7200.0,
     "awarded_gbp": 5390.4,
     "award_pct_of_rent": 74.9,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -2855,7 +3376,8 @@
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "The Tribunal makes a rent repayment order in favour of the Applicants against the First Respondent, in the sum of £5,390.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6985b862d3f57710b50a9b11/26.02.05_-_Decision.pdf",
@@ -2871,6 +3393,9 @@
     "claimed_gbp": 22408.0,
     "awarded_gbp": 7842.8,
     "award_pct_of_rent": 35.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
@@ -2878,7 +3403,8 @@
       "delayed_council_application",
       "tenant_conduct",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "The Tribunal makes a Rent Repayment Order against the Respondent in the sum of £7,842.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/698491317da3dc19896c7dee/9_Davids_Road_SE23_3EP_RRO_Decision_04.02.2026.pdf",
@@ -2893,11 +3419,15 @@
     "offence_type": "Unlawful Eviction / Harassment",
     "claimed_gbp": 6500.0,
     "awarded_gbp": 6500.0,
-    "award_pct_of_rent": null,
+    "award_pct_of_rent": 92.9,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
-      "financial_hardship"
+      "financial_hardship",
+      "good_condition"
     ],
     "judge_summary": "The Tribunal makes a rent repayment order in favour of the Applicant in the sum of £6,500 for the period 8 December 2023 to 7 May 2024.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69848f2d7da3dc19896c7ded/26_1_16_FD_Flat_17_Lister_Court_NW9_5HZ.pdf",
@@ -2913,6 +3443,9 @@
     "claimed_gbp": 14611.2,
     "awarded_gbp": 14611.2,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -2921,7 +3454,8 @@
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "Decision : 2nd February 2026 DECISION (1) The Respondent shall pay Rent Repayment Orders: (a) To the First Applicant in the sum of £7,545.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69822647015e2ba11991bbe2/2_Printers_Mews_RRO_decision_2-2-26.pdf",
@@ -2937,6 +3471,9 @@
     "claimed_gbp": 990.0,
     "awarded_gbp": 742.5,
     "award_pct_of_rent": 75.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -2959,6 +3496,9 @@
     "claimed_gbp": 960.0,
     "awarded_gbp": 720.0,
     "award_pct_of_rent": 75.0,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -2981,6 +3521,9 @@
     "claimed_gbp": 578.33,
     "awarded_gbp": 347.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -3002,6 +3545,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "delayed_council_application",
       "director_liability"
@@ -3020,13 +3566,17 @@
     "claimed_gbp": 475.0,
     "awarded_gbp": 285.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "first_offence",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "professional_landlord_aggravation"
+      "professional_landlord_aggravation",
+      "good_condition"
     ],
     "judge_summary": "decision : 1 December 2025 DECISION © CROWN COPYRIGHT 1 \f DECISION (1) The Tribunal determines that it shall exercise its discretion to make a rent repayment order, in terms that the Respondent shall pay to the Applicant within 28 days of the date of this decision the sum of £2856.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/692d903d345e31ab14ecf7f0/34_Howard_Street_Reading_RG1_7XS.pdf",
@@ -3042,6 +3592,9 @@
     "claimed_gbp": 23563.0,
     "awarded_gbp": 17672.25,
     "award_pct_of_rent": 75.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
@@ -3064,6 +3617,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "s44_statutory_conduct"
     ],
@@ -3081,6 +3637,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "letting_agent_reliance",
       "financial_hardship",
@@ -3100,6 +3659,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -3120,7 +3682,10 @@
     "offence_type": "Selective Licensing (s.95)",
     "claimed_gbp": null,
     "awarded_gbp": null,
-    "award_pct_of_rent": 75.0,
+    "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -3143,6 +3708,9 @@
     "claimed_gbp": 2912.74,
     "awarded_gbp": 719.0,
     "award_pct_of_rent": 24.7,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -3168,6 +3736,9 @@
     "claimed_gbp": 400.0,
     "awarded_gbp": 400.0,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -3192,6 +3763,9 @@
     "claimed_gbp": 36000.0,
     "awarded_gbp": 30600.0,
     "award_pct_of_rent": 85.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -3202,7 +3776,8 @@
       "tenant_conduct",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "The Tribunal makes a rent repayment order in favour of the Applicants against the Respondent, in the sum of £30,600, to be paid within 28 days of the date of this decision and apportioned as follows: (a) Safia Mahmood - £7,395; (b) Anna Elizabeth Hughes - £7,395; (c) Hannah Elisabeth O’Rouke - £7,905; (d) Millie Jade Filtness - £7,905.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/696e0671a426b80193afc7cf/2026-01-19_-_96_Camberwell_New_Road__London_SE5_0RS_-_Decision.pdf",
@@ -3218,13 +3793,18 @@
     "claimed_gbp": 9956.59,
     "awarded_gbp": 9956.59,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
       "tenant_conduct",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition"
     ],
     "judge_summary": "Decision Corrected pursuant to rule 50 of the 6 January 2026 Tribunal Procedure : 20 January 2026 (First-tier Tribunal) (Property Chamber) Rules 2013 DECISION © CROWN COPYRIGHT 2026 \f (1) The Tribunal makes Rent Repayment Orders under section 43 of the Housing and Planning Act 2016 requiring the Respondent to pay the sums set out below (a) to the First Appli",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/697236d951bd707cb10ed8e2/260122_Decison_1_Leof_Crescent__Lewisham__London__SE6_3QP.pdf",
@@ -3240,6 +3820,9 @@
     "claimed_gbp": 5562.5,
     "awarded_gbp": 2700.0,
     "award_pct_of_rent": 48.5,
+    "award_source": "direct",
+    "vizzy_award_source": "none",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -3247,7 +3830,8 @@
       "delayed_council_application",
       "tenant_conduct",
       "universal_credit_deducted",
-      "professional_landlord_aggravation"
+      "professional_landlord_aggravation",
+      "fire_safety_breach"
     ],
     "judge_summary": "Decision : 22 January 2026 DECISION © CROWN COPYRIGHT \fDecision The Respondent shall pay to the Applicants the sum of £2,700 within 28 days.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69738ba967ae94b32801379f/2026_Jan_22_Beauley_decision.pdf",
@@ -3263,13 +3847,18 @@
     "claimed_gbp": 7200.0,
     "awarded_gbp": 5760.0,
     "award_pct_of_rent": 80.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "professional_landlord_aggravation"
+      "professional_landlord_aggravation",
+      "fire_safety_breach",
+      "good_condition"
     ],
     "judge_summary": "The Tribunal makes a rent repayment order against the Respondent in the sum of £5,760.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6973862fd345446f8ce71e91/2026_Jan_15_Decision___Flat_2_12_Elphinestone.pdf",
@@ -3285,11 +3874,15 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "universal_credit_deducted",
-      "professional_landlord_aggravation"
+      "professional_landlord_aggravation",
+      "good_condition"
     ],
     "judge_summary": "Decision : 22nd December 2025 DECISION © CROWN COPYRIGHT \fDecision The Applicant’s application for a rent repayment order is dismissed.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6973671351bd707cb10ed950/2025_December_22_Decision_212_Haslemere.pdf",
@@ -3302,9 +3895,12 @@
     "region": "London",
     "decision_date": "2026-02-18",
     "offence_type": "Unlawful Eviction / Harassment",
-    "claimed_gbp": null,
+    "claimed_gbp": 28900.0,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -3324,6 +3920,9 @@
     "claimed_gbp": 4691.95,
     "awarded_gbp": 3284.37,
     "award_pct_of_rent": 70.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -3333,7 +3932,9 @@
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "deposit_unprotected",
+      "tenant_conduct"
     ],
     "judge_summary": "The Tribunal makes a rent repayment order in favour of the Applicants against the Respondent, in the sum of £3,284.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/698063d001dffa6465580099/9_Poppy_Close__UB5_5TP_-_Decision.pdf",
@@ -3349,6 +3950,9 @@
     "claimed_gbp": 8000.0,
     "awarded_gbp": 4800.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -3371,6 +3975,9 @@
     "claimed_gbp": 50400.0,
     "awarded_gbp": 50400.0,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
@@ -3392,6 +3999,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted"
     ],
@@ -3409,6 +4019,9 @@
     "claimed_gbp": 16440.0,
     "awarded_gbp": 12330.0,
     "award_pct_of_rent": 75.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -3418,7 +4031,8 @@
       "tenant_conduct",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "The Tribunal makes a rent repayment order in favour of the Applicants against the Respondent, in the sum of £12,330 (to be apportioned as set out below), to be paid within 28 days of the date of this decision: (i) The First Applicant - £6,165; (ii) The Second Applicant - £6,165.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/696a1f1ae13af2b11d3b0469/260115_Flat_3__High_Stone_Apartments__509_High_Road__E11_4ZG_-_Decision.pdf",
@@ -3434,6 +4048,9 @@
     "claimed_gbp": 10083.33,
     "awarded_gbp": 6050.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -3456,8 +4073,11 @@
     "decision_date": "2026-02-12",
     "offence_type": "Unlicensed HMO (s.72)",
     "claimed_gbp": null,
-    "awarded_gbp": null,
+    "awarded_gbp": 4144.56,
     "award_pct_of_rent": null,
+    "award_source": "inferred",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -3479,7 +4099,10 @@
     "offence_type": "Unlicensed HMO (s.72)",
     "claimed_gbp": null,
     "awarded_gbp": null,
-    "award_pct_of_rent": 80.0,
+    "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -3487,7 +4110,8 @@
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "professional_landlord_aggravation"
+      "professional_landlord_aggravation",
+      "fire_safety_breach"
     ],
     "judge_summary": "Decision : 28 November 2025 DECISION DECISION OF THE TRIBUNAL (1) The Tribunal makes rent repayment orders against the Respondent in the following amounts; (i) £7,089.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69415ccd1d8a56d23b7f0ae5/2025-12-16_-_44_Aberfoyle_Road_Determination.pdf",
@@ -3501,15 +4125,19 @@
     "decision_date": "2026-02-10",
     "offence_type": "Selective Licensing (s.95)",
     "claimed_gbp": 5259.68,
-    "awarded_gbp": null,
+    "awarded_gbp": 1424.2,
     "award_pct_of_rent": null,
+    "award_source": "inferred",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "Decision : 27 November 2025 Date of Issue : 15 December 2025 _____________________________________ DECISION _________________________________________ \f © CROWN COPYRIGHT 2024 Introduction 1 This is a decision on an application for a rent repayment order under section 41 of the Housing and Planning Act 2016 (‘the 2016 Act’).",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69402eebcfacd5e888492002/BIR_00FY_HMK_2024_0618_106_Manton_Crescent.pdf",
@@ -3525,6 +4153,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "letting_agent_reliance",
       "director_liability"
@@ -3543,6 +4174,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -3563,6 +4197,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -3583,6 +4220,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -3604,6 +4244,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "letting_agent_reliance",
       "financial_hardship",
@@ -3624,13 +4267,18 @@
     "claimed_gbp": 8096.5,
     "awarded_gbp": 6477.2,
     "award_pct_of_rent": 80.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition"
     ],
     "judge_summary": "The Tribunal makes a Rent Repayment Order against the Second Respondent in the sum of £6,477.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6979d85b1c24881f40a4d6e8/30_Douglas_Rd_Decision.pdf",
@@ -3646,6 +4294,9 @@
     "claimed_gbp": 7274.89,
     "awarded_gbp": 7274.89,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "delayed_council_application",
       "universal_credit_deducted"
@@ -3664,6 +4315,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -3683,6 +4337,9 @@
     "claimed_gbp": 518.46,
     "awarded_gbp": 337.0,
     "award_pct_of_rent": 65.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -3705,6 +4362,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -3730,6 +4390,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -3748,14 +4411,19 @@
     "decision_date": "2026-01-19",
     "offence_type": "Unlicensed HMO (s.72)",
     "claimed_gbp": null,
-    "awarded_gbp": null,
+    "awarded_gbp": 1227.75,
     "award_pct_of_rent": null,
+    "award_source": "inferred",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
-      "director_liability"
+      "director_liability",
+      "good_condition",
+      "tenant_conduct"
     ],
-    "judge_summary": "Decision : 2 December 2025 _______________________________________________ DECISION ____________________________________ © CROWN COPYRIGHT 2025 1 \f DECISION (1) The Tribunal makes rent repayment orders against the Respondent to each of the Applicants in the following sums, to be paid within 28 days: Ms Madej: £1,550.",
+    "judge_summary": "Decision : 2 December 2025 _______________________________________________ DECISION ____________________________________ © CROWN COPYRIGHT 2025 1 \f DECISION (1) The Tribunal makes rent repayment orders against the Respondent to each of the Applicants in the following sums, to be paid within 28 days: [Individual Party]: £1,550.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6968f0e4f01c6909fc540caa/2025.12.02_-_35_Heathfield_Road__final_.pdf",
     "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/35-heathfield-road-liverpool-l15-9eu-man-slash-00by-slash-hmf-slash-2024-slash-0046-0047",
     "quarantine_verdict": "CLEAN"
@@ -3767,15 +4435,19 @@
     "decision_date": "2026-01-19",
     "offence_type": "Unlicensed HMO (s.72)",
     "claimed_gbp": null,
-    "awarded_gbp": null,
+    "awarded_gbp": 1161.78,
     "award_pct_of_rent": null,
+    "award_source": "inferred",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
       "tenant_conduct",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "Decision : 1 December 2025 DECISION © CROWN COPYRIGHT 2025 \fDecision 1.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6968f5c76aedc683a7540c9e/Decision_-_1_Palatine_Avenue_Withington_Manchester__M20_3DP_10.12.25.pdf",
@@ -3791,6 +4463,9 @@
     "claimed_gbp": 800.0,
     "awarded_gbp": 481.53,
     "award_pct_of_rent": 60.2,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
@@ -3813,6 +4488,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship"
@@ -3831,6 +4509,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
@@ -3839,7 +4520,7 @@
       "universal_credit_deducted",
       "director_liability"
     ],
-    "judge_summary": "Decision : 26 March 2024 © CROWN COPYRIGHT 2024 1 \fDecision The Tribunal is satisfied beyond reasonable doubt that the Respondents, Asim Shahzad, Aroon Shaheen Khan and Ahmed Khokhar committed an offence under s.",
+    "judge_summary": "Decision : 26 March 2024 © CROWN COPYRIGHT 2024 1 \fDecision The Tribunal is satisfied beyond reasonable doubt that the Respondents, [Individual Respondent], Aroon Shaheen Khan and Ahmed Khokhar committed an offence under s.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/662f848424347c67e8e3cb59/39_RUSKIN_AVE_MANCHESTER_26_03_24.pdf",
     "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/39-ruskin-avenue-rusholme-manchester-m14-4dp-man-slash-00bn-slash-hmf-slash-2023-slash-0012",
     "quarantine_verdict": "CLEAN"
@@ -3853,6 +4534,9 @@
     "claimed_gbp": 11730.0,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -3861,7 +4545,7 @@
       "professional_landlord_aggravation",
       "director_liability"
     ],
-    "judge_summary": "DECISION ____________________________________ © CROWN COPYRIGHT 2024 1 \fThe Decision and Order Mr Richardson is ordered to repay rent of £250 to Mr Obichukwu within 28 days of Mr Obichukwu providing Mr Richardson sufficient information to allow that to be paid.",
+    "judge_summary": "DECISION ____________________________________ © CROWN COPYRIGHT 2024 1 \fThe Decision and Order [Individual Party] is ordered to repay rent of £250 to [Individual Party] within 28 days of [Individual Party] providing [Individual Party] sufficient information to allow that to be paid.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/66320515c084007696fca726/10_New_St_RRO_Mar_2024.pdf",
     "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/10-new-street-platt-bridge-wigan-wn2-5jb-man-slash-00bw-slash-hmf-slash-2023-slash-0026",
     "quarantine_verdict": "CLEAN"
@@ -3875,6 +4559,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "s44_statutory_conduct"
     ],
@@ -3892,6 +4579,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -3911,6 +4601,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "first_offence",
@@ -3934,6 +4627,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "first_offence",
@@ -3956,6 +4652,9 @@
     "claimed_gbp": 800.0,
     "awarded_gbp": 720.0,
     "award_pct_of_rent": 90.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -3978,6 +4677,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
@@ -4002,6 +4704,9 @@
     "claimed_gbp": 2838.0,
     "awarded_gbp": 2838.0,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -4024,6 +4729,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "letting_agent_reliance",
       "financial_hardship",
@@ -4044,7 +4752,10 @@
     "offence_type": "Selective Licensing (s.95)",
     "claimed_gbp": null,
     "awarded_gbp": null,
-    "award_pct_of_rent": 80.0,
+    "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
@@ -4068,6 +4779,9 @@
     "claimed_gbp": 303.33,
     "awarded_gbp": 273.0,
     "award_pct_of_rent": 90.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -4089,11 +4803,15 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
       "financial_hardship",
-      "universal_credit_deducted"
+      "universal_credit_deducted",
+      "good_condition"
     ],
     "judge_summary": "Decision : 18 December 2025 DECISION The application for a Rent Repayment Order is refused.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69931a7143eb912f2e15b4ab/8_Deep_Carrs_Lane_decision.pdf",
@@ -4109,12 +4827,16 @@
     "claimed_gbp": 6888.0,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "Decision : 15 December 2025 DECISION © CROWN COPYRIGHT \f1.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6953bd5c295a95414df21a17/2025_Dec_16_station_road_decision.pdf",
@@ -4130,10 +4852,14 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "financial_hardship",
       "delayed_council_application",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "Decision : 15 December 2025 DECISION © CROWN COPYRIGHT \f1.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6953a71297f1c5e3c92a8315/2025_Dec_16_victoria_decision.pdf",
@@ -4149,6 +4875,9 @@
     "claimed_gbp": 3764.0,
     "awarded_gbp": 941.0,
     "award_pct_of_rent": 25.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -4171,9 +4900,12 @@
     "region": "London",
     "decision_date": "2025-12-31",
     "offence_type": "Unlawful Eviction / Harassment",
-    "claimed_gbp": null,
-    "awarded_gbp": null,
-    "award_pct_of_rent": null,
+    "claimed_gbp": 2400.0,
+    "awarded_gbp": 1320.12,
+    "award_pct_of_rent": 55.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -4194,13 +4926,17 @@
     "claimed_gbp": 1440.0,
     "awarded_gbp": 936.0,
     "award_pct_of_rent": 65.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
       "financial_hardship",
       "delayed_council_application",
       "tenant_conduct",
-      "universal_credit_deducted"
+      "universal_credit_deducted",
+      "good_condition"
     ],
     "judge_summary": "Taking all of these matters into account the tribunal determines to award the Applicants 65% of the maximum RRO payable.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69529abcd9a43c5cd3cd3d1a/251222_RRO_decision_Kitchener_road.pdf",
@@ -4216,10 +4952,14 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "financial_hardship",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "Decision : 15th December 2025 DECISION The application for a Rent Repayment Order is refused.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/693ffa37cfacd5e888491faa/251215_The_Cottage_RRO_decision.pdf",
@@ -4235,13 +4975,18 @@
     "claimed_gbp": 7761.76,
     "awarded_gbp": 6209.4,
     "award_pct_of_rent": 80.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition"
     ],
     "judge_summary": "decision : 9 December 2025 DECISION Decision of the tribunal (1) The Respondent shall pay to the Applicant a Rent Repayment Order in the sum of £6,209.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6938465533c7ace9c4a41e85/251209_RRO__decision_19_Ballance_Road__E9_5ST.pdf",
@@ -4257,6 +5002,9 @@
     "claimed_gbp": 4928.87,
     "awarded_gbp": 2957.32,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -4265,7 +5013,9 @@
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "tenant_conduct"
     ],
     "judge_summary": "The Tribunal makes a rent repayment order in favour of the Applicants against the Respondent, in the total sum of £2,957.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6936b31292da4705a575d3fe/19_Huxley_Road_N18_1NU_-_Decision.pdf",
@@ -4281,6 +5031,9 @@
     "claimed_gbp": 5418.33,
     "awarded_gbp": 3251.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -4304,7 +5057,10 @@
     "offence_type": "Unlicensed HMO (s.72)",
     "claimed_gbp": 3400.0,
     "awarded_gbp": 3400.0,
-    "award_pct_of_rent": null,
+    "award_pct_of_rent": 12.9,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -4313,7 +5069,8 @@
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "The Tribunal makes a rent repayment order against the Respondent in the total sum of £3,400 as follows; (i) £950 to be paid to the First Applicant (ii) £1250 to be paid to the Second Applicant (iii) £1,200 to be paid to the Third Applicant.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69297fdd9c1eda2cdf034281/251125_-_285_Lyham_Road_decision.pdf",
@@ -4329,11 +5086,15 @@
     "claimed_gbp": 17400.0,
     "awarded_gbp": 3480.0,
     "award_pct_of_rent": 20.0,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
       "tenant_conduct",
-      "professional_landlord_aggravation"
+      "professional_landlord_aggravation",
+      "good_condition"
     ],
     "judge_summary": "Decision : 26th November 2025 DECISION 1.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6954f8cf6a4ea67a402a8368/25.11.26_-_Decision.pdf",
@@ -4349,6 +5110,9 @@
     "claimed_gbp": 6600.0,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "delayed_council_application",
@@ -4368,6 +5132,9 @@
     "claimed_gbp": 7571.0,
     "awarded_gbp": 4493.2,
     "award_pct_of_rent": 59.3,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
@@ -4376,7 +5143,9 @@
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition"
     ],
     "judge_summary": "decision : 23rd October 2025 DECISION © CROWN COPYRIGHT 2025 1 \fIntroduction 1.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6900d14aa6048928d3fc2b1f/BIR_00CN_HMK_2025_0002_1_Royal_Arch.pdf",
@@ -4392,6 +5161,9 @@
     "claimed_gbp": 870.0,
     "awarded_gbp": 870.0,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "first_offence",
@@ -4414,11 +5186,15 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "financial_hardship",
       "tenant_conduct",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "Decision : 27th November 2025 DECISION The application for a Rent Repayment Order is dismissed.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/692dbdc69c1eda2cdf0343a8/88_Montpelier_Rd_RRO_decision_27-11-25.pdf",
@@ -4434,6 +5210,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "director_liability"
     ],
@@ -4449,8 +5228,11 @@
     "decision_date": "2025-12-11",
     "offence_type": "Selective Licensing (s.95)",
     "claimed_gbp": null,
-    "awarded_gbp": null,
+    "awarded_gbp": 10019.79,
     "award_pct_of_rent": 55.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -4475,6 +5257,9 @@
     "claimed_gbp": 6506.61,
     "awarded_gbp": 6169.61,
     "award_pct_of_rent": 94.8,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -4483,7 +5268,8 @@
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "The Tribunal orders the Respondent to repay to the Applicant the sum of £6,169.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/691c5eb40dcbf6343e9a296f/2025-11-17_-_22_Malden_Road_-_RRO_Decision_FINAL.pdf",
@@ -4496,9 +5282,12 @@
     "region": "London",
     "decision_date": "2025-12-11",
     "offence_type": "Unlicensed HMO (s.72)",
-    "claimed_gbp": null,
+    "claimed_gbp": 5442.0,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "director_liability"
     ],
@@ -4516,6 +5305,9 @@
     "claimed_gbp": 5342.5,
     "awarded_gbp": 5239.75,
     "award_pct_of_rent": 98.1,
+    "award_source": "direct",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -4523,7 +5315,8 @@
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach"
     ],
     "judge_summary": "The Tribunal makes a Rent Repayment Order against Respondent (1) in the sum of £5,239.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/69259fab9fd433badebc3159/62_Hornby_Road_decision_final_17-10-25.pdf",
@@ -4539,6 +5332,9 @@
     "claimed_gbp": 700.0,
     "awarded_gbp": 700.0,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -4559,13 +5355,17 @@
     "claimed_gbp": 2250.0,
     "awarded_gbp": 947.14,
     "award_pct_of_rent": 42.1,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "Decision : 6 November 2025 DECISION © CROWN COPYRIGHT 1 \fDecisions of the Tribunal (1) The Tribunal makes a Rent Repayment Order of £947.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/691de67bd140bbbaa59a2a78/2025_Nov_7_Monkton_decision.pdf",
@@ -4581,6 +5381,9 @@
     "claimed_gbp": 5463.46,
     "awarded_gbp": 3278.08,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
@@ -4602,6 +5405,9 @@
     "claimed_gbp": 3471.0,
     "awarded_gbp": 1561.95,
     "award_pct_of_rent": 45.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -4623,6 +5429,9 @@
     "claimed_gbp": 3120.0,
     "awarded_gbp": 3120.0,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -4642,9 +5451,12 @@
     "region": "London",
     "decision_date": "2025-11-27",
     "offence_type": "Unlicensed HMO (s.72)",
-    "claimed_gbp": null,
-    "awarded_gbp": null,
+    "claimed_gbp": 2027.99,
+    "awarded_gbp": 3924.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "inferred",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -4670,6 +5482,9 @@
     "claimed_gbp": 5681.4,
     "awarded_gbp": 4547.05,
     "award_pct_of_rent": 80.0,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
@@ -4677,7 +5492,11 @@
       "delayed_council_application",
       "universal_credit_deducted",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition",
+      "deposit_unprotected",
+      "tenant_conduct"
     ],
     "judge_summary": "The Tribunal makes a rent repayment order against the Respondent for the global sum of £4,547.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/691da13e513046b952c50043/251118_FINAL_CORRECTED_DETERMINATION_for_52_Parkfield_Rd__TW13_7LG.pdf",
@@ -4693,6 +5512,9 @@
     "claimed_gbp": 30000.0,
     "awarded_gbp": 6090.0,
     "award_pct_of_rent": 20.3,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -4715,6 +5537,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "first_offence",
@@ -4736,6 +5561,9 @@
     "claimed_gbp": 4500.0,
     "awarded_gbp": 2700.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -4745,7 +5573,7 @@
       "universal_credit_deducted",
       "director_liability"
     ],
-    "judge_summary": "The Tribunal orders Mr Richard Ortyl to repay to Miss Emilia Seniuk rent in the sum of £2,700.",
+    "judge_summary": "The Tribunal orders [Individual Party] to repay to [Individual Party] rent in the sum of £2,700.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/688a3068048fff613a4d5be9/4B_Bourne_Street__Gedling_NG4_2FH-BIR_37UE_HMK_2024_0026.pdf",
     "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/4b-bourne-street-gedling-ng4-2fh-bir-slash-37ue-slash-hmk-slash-2024-slash-0026",
     "quarantine_verdict": "CLEAN"
@@ -4759,6 +5587,9 @@
     "claimed_gbp": 19800.0,
     "awarded_gbp": 9075.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "good_condition",
       "letting_agent_reliance",
@@ -4779,6 +5610,9 @@
     "claimed_gbp": 6853.34,
     "awarded_gbp": 4645.2,
     "award_pct_of_rent": 67.8,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -4804,6 +5638,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -4823,7 +5660,10 @@
     "offence_type": "Unlicensed HMO (s.72)",
     "claimed_gbp": null,
     "awarded_gbp": null,
-    "award_pct_of_rent": 55.0,
+    "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -4833,7 +5673,7 @@
       "professional_landlord_aggravation",
       "director_liability"
     ],
-    "judge_summary": "Decision : 27 August 2025 DECISION © CROWN COPYRIGHT 2013 \fOrders (1) The Tribunal makes rent repayment orders against the Respondent to each of the Applicants in the following sums, to be paid within 28 days: Ms Cardiff: £7,235 Ms Quill: £7,280 Ms Sullivan: £7,105 (2) The Tribunal orders under Tribunal Procedure (First-tier Tribunal)(Property Chamber) Rules",
+    "judge_summary": "Decision : 27 August 2025 DECISION © CROWN COPYRIGHT 2013 \fOrders (1) The Tribunal makes rent repayment orders against the Respondent to each of the Applicants in the following sums, to be paid within 28 days: [Individual Party]: £7,235 [Individual Party]: £7,280 [Individual Party]: £7,105 (2) The Tribunal orders under Tribunal Procedure (First-tier Tribunal)(Property Chamber) Rules",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/68af446f969253904d155909/DECISION___8_McDougall_House__Turin_Street__London__E2_6BE_-_LON_00BG_HMF_2024_0631.pdf",
     "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/8-mcdougall-house-turin-street-london-e2-6be-lon-slash-00bg-slash-hmf-slash-2024-slash-0631",
     "quarantine_verdict": "CLEAN"
@@ -4847,6 +5687,9 @@
     "claimed_gbp": 452.31,
     "awarded_gbp": 294.0,
     "award_pct_of_rent": 65.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -4869,13 +5712,17 @@
     "claimed_gbp": 330.76,
     "awarded_gbp": 330.76,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
       "tenant_conduct",
       "professional_landlord_aggravation",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "the Tribunal makes a Rent Repayment Order in favour of the Applicants as follows; Name Gross Reduction Amount Amount for tenant's conduct Rossie £1403.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6911f4b6ece74c08fbaa642c/2025_November_10_-_Decision.pdf",
@@ -4888,16 +5735,20 @@
     "region": "Southern",
     "decision_date": "2025-11-11",
     "offence_type": "Improvement Notice / Civil Penalty",
-    "claimed_gbp": null,
+    "claimed_gbp": 6750.0,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
       "tenant_conduct",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "Decision : 17 October 2025 DECISION © CROWN COPYRIGHT 1 \f Decision (1) The correct Respondent is The First Respondent (2) The Second Respondent is removed as a party (3) The First Respondent HAS NOT COMMITTED AN OFFENCE contrary to section 30 of the Housing Act 2004 (4) The application for a rent repayment order is DISMISSED.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/690cb7d468fffdd77951ab28/2025_Oct_24_Sangate_decision.pdf",
@@ -4911,16 +5762,21 @@
     "decision_date": "2025-11-07",
     "offence_type": "Unlicensed HMO (s.72)",
     "claimed_gbp": null,
-    "awarded_gbp": null,
+    "awarded_gbp": 5300.0,
     "award_pct_of_rent": null,
+    "award_source": "inferred",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition"
     ],
-    "judge_summary": "The Tribunal makes a rent repayment orders against the Respondents to each of the Applicants, to be divided between them on the basis of the their proportionate payments of rent and subject to the deduction of the housing element of Universal Credit in the case of Mr Graham, to be paid within 28 days, in the sum of £5,300.",
+    "judge_summary": "The Tribunal makes a rent repayment orders against the Respondents to each of the Applicants, to be divided between them on the basis of the their proportionate payments of rent and subject to the deduction of the housing element of Universal Credit in the case of [Individual Party], to be paid within 28 days, in the sum of £5,300.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/690b4448b04a520c505184d2/25.11.04_-_Decision.pdf",
     "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/195-woolwich-road-london-se10-0rj-lon-slash-00al-slash-hml-slash-2025-slash-0705",
     "quarantine_verdict": "CLEAN"
@@ -4934,6 +5790,9 @@
     "claimed_gbp": 23953.0,
     "awarded_gbp": 23953.0,
     "award_pct_of_rent": 100.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "first_offence",
@@ -4941,7 +5800,10 @@
       "delayed_council_application",
       "tenant_conduct",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "fire_safety_breach",
+      "good_condition",
+      "professional_landlord_aggravation"
     ],
     "judge_summary": "The tribunal orders the Respondent to repay to the Applicants the sum of £7,185.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/690a147914b040dfe82922a2/251104_Final_Decision.pdf",
@@ -4957,6 +5819,9 @@
     "claimed_gbp": 15000.0,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -4980,7 +5845,10 @@
     "offence_type": "Unlicensed HMO (s.72)",
     "claimed_gbp": 16800.7,
     "awarded_gbp": 16800.7,
-    "award_pct_of_rent": null,
+    "award_pct_of_rent": 56.3,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -5004,6 +5872,9 @@
     "claimed_gbp": 6422.37,
     "awarded_gbp": 3853.42,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -5029,6 +5900,9 @@
     "claimed_gbp": 1350.0,
     "awarded_gbp": 890.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -5053,11 +5927,15 @@
     "claimed_gbp": 9000.0,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "delayed_council_application",
       "universal_credit_deducted",
-      "director_liability"
+      "director_liability",
+      "good_condition"
     ],
     "judge_summary": "decision 29 October 2025 DECISION © CROWN COPYRIGHT \fThe tribunal’s decision (1) The tribunal refuses the application for a rent repayment order.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/6901d8dda6048928d3fc2b5d/251029_-_31_Rope_St_-Decision.pdf",
@@ -5070,9 +5948,12 @@
     "region": "London",
     "decision_date": "2025-11-07",
     "offence_type": "Unlawful Eviction / Harassment",
-    "claimed_gbp": null,
+    "claimed_gbp": 7800.0,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "none",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -5092,8 +5973,11 @@
     "decision_date": "2025-11-07",
     "offence_type": "Selective Licensing (s.95)",
     "claimed_gbp": 1600.0,
-    "awarded_gbp": null,
+    "awarded_gbp": 5760.0,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -5115,6 +5999,9 @@
     "claimed_gbp": 4780.06,
     "awarded_gbp": 1607.25,
     "award_pct_of_rent": 33.6,
+    "award_source": "direct",
+    "vizzy_award_source": "direct",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "financial_hardship",
       "delayed_council_application",
@@ -5136,6 +6023,9 @@
     "claimed_gbp": 1170.0,
     "awarded_gbp": 1170.0,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "none",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "letting_agent_reliance",
       "first_offence",
@@ -5159,6 +6049,9 @@
     "claimed_gbp": 1000.0,
     "awarded_gbp": 600.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "inferred",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -5167,7 +6060,8 @@
       "financial_hardship",
       "tenant_conduct",
       "universal_credit_deducted",
-      "professional_landlord_aggravation"
+      "professional_landlord_aggravation",
+      "deposit_unprotected"
     ],
     "judge_summary": "decision : 22 October 2025 DECISION NB: Pages in bold and in square brackets below refer to pages in the hearing bundle prepared by the Applicants (518 pages).",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/68fb4e2635dbb2bcedb5f9a4/251022_58_George_Downing_Estate_Final_Decision__AV_.pdf",
@@ -5183,6 +6077,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "letting_agent_reliance",
       "financial_hardship",
@@ -5205,6 +6102,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -5231,6 +6131,9 @@
     "claimed_gbp": 1234.11,
     "awarded_gbp": 802.17,
     "award_pct_of_rent": 65.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -5253,6 +6156,9 @@
     "claimed_gbp": 14400.0,
     "awarded_gbp": 14400.0,
     "award_pct_of_rent": 100.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -5277,6 +6183,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -5303,6 +6212,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "delayed_council_application",
       "tenant_conduct"
@@ -5321,6 +6233,9 @@
     "claimed_gbp": 8318.76,
     "awarded_gbp": 8318.76,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -5341,6 +6256,9 @@
     "claimed_gbp": 21450.0,
     "awarded_gbp": 15015.0,
     "award_pct_of_rent": 70.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -5367,6 +6285,9 @@
     "claimed_gbp": 1558.9,
     "awarded_gbp": 1247.12,
     "award_pct_of_rent": 80.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -5391,6 +6312,9 @@
     "claimed_gbp": 1020.0,
     "awarded_gbp": 612.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -5410,6 +6334,9 @@
     "claimed_gbp": 840.0,
     "awarded_gbp": 798.0,
     "award_pct_of_rent": 95.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -5430,6 +6357,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "s44_statutory_conduct"
     ],
@@ -5447,6 +6377,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "s44_statutory_conduct"
     ],
@@ -5464,12 +6397,15 @@
     "claimed_gbp": 9525.0,
     "awarded_gbp": 6667.5,
     "award_pct_of_rent": 70.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
       "delayed_council_application"
     ],
-    "judge_summary": "The tribunal determines to make a Rent Repayment Order to Mr Luke McBratney totalling £6141.",
+    "judge_summary": "The tribunal determines to make a Rent Repayment Order to [Individual Party] McBratney totalling £6141.",
     "pdf_url": "https://assets.publishing.service.gov.uk/media/68c2d11f7596dbfa052bfeb7/250829_RRO_decision__McBratney_Lankaster.pdf",
     "gov_uk_url": "https://www.gov.uk/residential-property-tribunal-decisions/46-lankaster-gardens-london-n2-9aj-lon-slash-00ac-slash-hmf-slash-2025-slash-0622",
     "quarantine_verdict": "CLEAN"
@@ -5483,6 +6419,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "financial_hardship",
       "delayed_council_application",
@@ -5503,6 +6442,9 @@
     "claimed_gbp": 3340.06,
     "awarded_gbp": 3340.06,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -5523,6 +6465,9 @@
     "claimed_gbp": 17620.0,
     "awarded_gbp": 14977.0,
     "award_pct_of_rent": 85.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -5542,6 +6487,9 @@
     "claimed_gbp": 648.0,
     "awarded_gbp": 486.0,
     "award_pct_of_rent": 75.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
@@ -5564,6 +6512,9 @@
     "claimed_gbp": 23500.0,
     "awarded_gbp": 9400.0,
     "award_pct_of_rent": 40.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "letting_agent_reliance",
@@ -5588,6 +6539,9 @@
     "claimed_gbp": 2819.17,
     "awarded_gbp": 2537.25,
     "award_pct_of_rent": 90.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -5612,6 +6566,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -5636,6 +6593,9 @@
     "claimed_gbp": 3587.0,
     "awarded_gbp": 3587.0,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -5659,6 +6619,9 @@
     "claimed_gbp": 5933.33,
     "awarded_gbp": 3560.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -5682,6 +6645,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "financial_hardship",
       "tenant_conduct",
@@ -5702,6 +6668,9 @@
     "claimed_gbp": 27050.0,
     "awarded_gbp": 12172.5,
     "award_pct_of_rent": 45.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "first_offence",
@@ -5725,6 +6694,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "universal_credit_deducted",
       "director_liability"
@@ -5743,6 +6715,9 @@
     "claimed_gbp": 24720.0,
     "awarded_gbp": 14832.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -5767,6 +6742,9 @@
     "claimed_gbp": 874.0,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "first_offence",
@@ -5787,6 +6765,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "financial_hardship",
       "delayed_council_application",
@@ -5806,6 +6787,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -5827,6 +6811,9 @@
     "claimed_gbp": 330.29,
     "awarded_gbp": 330.29,
     "award_pct_of_rent": null,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -5847,6 +6834,9 @@
     "claimed_gbp": null,
     "awarded_gbp": null,
     "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "first_offence",
@@ -5870,6 +6860,9 @@
     "claimed_gbp": null,
     "awarded_gbp": 0.0,
     "award_pct_of_rent": 0.0,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "financial_hardship",
       "universal_credit_deducted"
@@ -5888,6 +6881,9 @@
     "claimed_gbp": 39000.0,
     "awarded_gbp": 23400.0,
     "award_pct_of_rent": 60.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "good_condition",
@@ -5913,6 +6909,9 @@
     "claimed_gbp": 6400.0,
     "awarded_gbp": 5120.0,
     "award_pct_of_rent": 80.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "letting_agent_reliance",
       "delayed_council_application",
@@ -5932,6 +6931,9 @@
     "claimed_gbp": 1760.0,
     "awarded_gbp": 440.0,
     "award_pct_of_rent": 25.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -5953,7 +6955,10 @@
     "offence_type": "Unlicensed HMO (s.72)",
     "claimed_gbp": null,
     "awarded_gbp": null,
-    "award_pct_of_rent": 40.0,
+    "award_pct_of_rent": null,
+    "award_source": "none",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "corporate",
     "mitigation_factors": [
       "utilities_deducted",
       "financial_hardship",
@@ -5974,6 +6979,9 @@
     "claimed_gbp": 2101.8,
     "awarded_gbp": 1050.9,
     "award_pct_of_rent": 50.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "good_condition",
       "letting_agent_reliance",
@@ -5996,6 +7004,9 @@
     "claimed_gbp": 805.0,
     "awarded_gbp": 281.0,
     "award_pct_of_rent": 34.9,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "utilities_deducted",
       "first_offence",
@@ -6017,6 +7028,9 @@
     "claimed_gbp": 3000.37,
     "awarded_gbp": 3000.0,
     "award_pct_of_rent": 100.0,
+    "award_source": "direct",
+    "vizzy_award_source": "not_in_199_subset",
+    "respondent_type": "individual",
     "mitigation_factors": [
       "financial_hardship",
       "delayed_council_application"

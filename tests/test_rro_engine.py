@@ -82,7 +82,7 @@ def test_ogl_reference_db_strict_readonly_isolation() -> None:
     try:
         with pytest.raises(sqlite3.OperationalError, match="readonly"):
             conn.execute(
-                "INSERT INTO rro_decisions VALUES ('FAKE/1', 't', 'London', '2026', 'HMO', 1, 1, 100, '[]', 's', 'u', 'u', '[]', 'OGL')"
+                "INSERT INTO rro_decisions VALUES ('FAKE/1', 't', 'London', '2026', 'HMO', 1, 1, 100, 'direct', 'individual', '[]', 's', 'u', 'u', '[]', 'OGL')"
             )
         with pytest.raises(sqlite3.OperationalError, match="readonly"):
             conn.execute("DELETE FROM rro_decisions")
@@ -228,3 +228,24 @@ def test_privacy_safe_aggregate_usage_counters_zero_pii(tmp_path: Path) -> None:
     # 6. Verify rro_precedents.sqlite was never written to
     db_mtime_after = DEFAULT_DB_PATH.stat().st_mtime_ns
     assert db_mtime_after == db_mtime_before
+
+
+def test_award_source_provenance_and_direct_median_accuracy() -> None:
+    """
+    Verify that all 281 decisions carry explicit `award_source` ('direct' / 'inferred' / 'none')
+    and `respondent_type` ('individual' / 'corporate'), that 'inferred' awards are never counted
+    as 'direct', and that median/mean statistics are computed strictly over 'direct' awards.
+    """
+    res = search_rro_precedents(limit=300, record_usage=False)
+    assert res["stats"]["total_matched"] == 281
+    assert res["stats"]["direct_award_count"] == 163
+    assert res["stats"]["inferred_award_count"] == 16
+    assert res["stats"]["none_or_dismissed_count"] == 102
+    assert res["stats"]["median_award_pct"] == 60.0
+    assert res["stats"]["median_award_gbp"] == 3560.0
+
+    for row in res["results"]:
+        assert row["award_source"] in ("direct", "inferred", "none")
+        assert row["respondent_type"] in ("individual", "corporate")
+        if row["award_source"] == "inferred":
+            assert row["awarded_gbp"] is not None and row["awarded_gbp"] > 0

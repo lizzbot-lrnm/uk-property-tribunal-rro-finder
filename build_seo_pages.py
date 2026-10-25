@@ -231,12 +231,12 @@ def _compute_group_metrics(rows: list[dict[str, Any]]) -> dict[str, Any]:
     pcts = sorted(
         float(r["award_pct_of_rent"])
         for r in rows
-        if r.get("award_pct_of_rent") is not None and float(r["award_pct_of_rent"]) > 0
+        if r.get("award_source", "direct") == "direct" and r.get("award_pct_of_rent") is not None and float(r["award_pct_of_rent"]) > 0
     )
     awards = sorted(
         float(r["awarded_gbp"])
         for r in rows
-        if r.get("awarded_gbp") is not None and float(r["awarded_gbp"]) > 0
+        if r.get("award_source", "direct") == "direct" and r.get("awarded_gbp") is not None and float(r["awarded_gbp"]) > 0
     )
     claims = [
         float(r["claimed_gbp"])
@@ -287,6 +287,7 @@ def _select_notable_cases(rows: list[dict[str, Any]], max_cases: int = 10) -> li
             "offence": r["offence_type"],
             "claimed_gbp": r["claimed_gbp"],
             "awarded_gbp": r["awarded_gbp"],
+                "award_source": r["award_source"] if "award_source" in r.keys() else "direct",
             "award_pct": r["award_pct_of_rent"],
             "judge": r["judge"],
             "decision_date": r["decision_date"],
